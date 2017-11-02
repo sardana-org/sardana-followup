@@ -1,5 +1,6 @@
 # Sardana follow-up meeting
 Held on 02.11.2017 at 14:00
+
 Participants: SOLARIS - Grzegorz Kowalski, MAXIV - Antonio Milan,
               DESY - Teresa Nunez and ALBA - Zbigniew Reszela
 
