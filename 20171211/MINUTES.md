@@ -84,4 +84,6 @@ Participants: SOLARIS - Grzegorz Kowalski, MAXIV - Antonio Milan,
 
 5. Propose new development, enhancement or bug fix, for collaborative development
 * Try to finish the issues in previous point
+* Alba will check PR #642
+* DESY will check PR #661
 
