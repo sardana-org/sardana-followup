@@ -1,10 +1,8 @@
-# Periodic Meetings Log
-
-## Sardana Follow-up Meeting - 2018/01/25
+# Sardana Follow-up Meeting - 2018/01/25
 
 Held on 2018/01/25 at 14:00
 
-### Agenda
+## Agenda
 
 1. Presentation
   1.  Sardana objects references and the compatibility with Taurus4 (#668 - kick off)
@@ -15,10 +13,10 @@ Held on 2018/01/25 at 14:00
 5. Pending PR distribution and Jan17 release
 6. Any Other Business
 
-### Minutes
+## Minutes
 
-#### 1. Presentation
-##### 1.1  Sardana objects references and the compatibility with Taurus4
+### 1. Presentation
+#### 1.1  Sardana objects references and the compatibility with Taurus4
 
 - PR: [#668](https://github.com/sardana-org/sardana/pull/668)
 - Because of the cache mechanism if you change the alias, you must make an init in the pool.
@@ -39,7 +37,7 @@ __Actions__
 - [ ] Start with the most simple case and evolve from there.
 
 
-##### 1.2  Centralized logging for Sardana with Elastic
+#### 1.2  Centralized logging for Sardana with Elastic
 
 - ElastichSearch, LogStash and Kibanna used for this prototype.
 - How to make it tango independent?
@@ -51,7 +49,7 @@ __Actions__
 - [ ] Zibi to make a PR and it will be evaluated
 
 
-#### 2. User Experience Report - Round Table
+### 2. User Experience Report - Round Table
 
 __MAXIV__
 - Sardana updated in all the beamlines except one.
@@ -88,7 +86,7 @@ __Actions__
 - [ ] Share macros for managing the measurement groups and make a standard macros for this.
 
 
-#### 3. Collaborative Developments - Review
+### 3. Collaborative Developments - Review
 
 __ALBA__
 - About positions on Continuous scans, it couldn't be started.
@@ -115,11 +113,11 @@ __Actions__
 - [ ] General hooks to be merged in the next Sardana release as an experimental API, then during the next months it will be evaluated and if no issues appear, then it will be official in the following release.
 - [ ] Integrate the actual solution for the Motor Limits Issue as an experimental solution and in the meantime try to find the best solution. Before the release.
 
-#### 4. New Developments, Enhancements or Bug Fixes
+### 4. New Developments, Enhancements or Bug Fixes
 
 - Continue with the taurusform, logging, motor positions in continuous scans ([#643](https://github.com/sardana-org/sardana/issues/643)), and integrate the limit protection.
 
-#### 5. Pending PR distribution and Jan18 release
+### 5. Pending PR distribution and Jan18 release
 
 - General hooks
 - Pseudos limit protection
@@ -129,6 +127,6 @@ __Actions__
   - Suse and Windows: ALBA
   - Debian (and CentOS): SOLARIS
 
-#### 6. Any Other Business
+### 6. Any Other Business
 
 - Nothing to be reported.
