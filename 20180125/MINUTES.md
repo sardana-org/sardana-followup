@@ -20,10 +20,10 @@ Held on 2018/01/25 at 14:00
 
 - PR: [#668](https://github.com/sardana-org/sardana/pull/668)
 - Because of the cache mechanism if you change the alias, you must make an init in the pool.
-- Keep reference able to distinguish devices and not relying on the tango (FQTN).
+- Keep reference able to distinguish devices and not relying on the tango (FQDN).
 - What if the tango host changes? Problem with memorized attributes. PR: [#667](https://github.com/sardana-org/sardana/issues/667)
 - Keep ID's and references internally
-- Internally, tango always uses FQTN. It would be good to keep the names unified.
+- It would be good to keep the names unified.
 - Convert the names from short names to full names? ... This could be provided by Taurus.
 - In a measurement group? Elements should be named by alias.
 - In the MacroServer, the container should use the full name internally.
@@ -107,7 +107,7 @@ __Common__
 - Motor limits issue.
   - Investigation done for accessing the limits of a motor.
   - Avoid the use of attribute proxy and use the configuration of the attribute?
-- Taurusform compatibility with names. SOLARIS interested in working in this issue, but they are very busy with the upgrades.
+- Taurus4 compatibility with names. SOLARIS interested in working in this issue, but they are very busy with the upgrades.
 
 __Actions__
 - [ ] General hooks to be merged in the next Sardana release as an experimental API, then during the next months it will be evaluated and if no issues appear, then it will be official in the following release.
@@ -115,13 +115,12 @@ __Actions__
 
 ### 4. New Developments, Enhancements or Bug Fixes
 
-- Continue with the taurusform, logging, motor positions in continuous scans ([#643](https://github.com/sardana-org/sardana/issues/643)), and integrate the limit protection.
+- Continue with the taurus4 and Sardana references, logging, motor positions in continuous scans ([#643](https://github.com/sardana-org/sardana/issues/643)), and integrate the limit protection.
 
 ### 5. Pending PR distribution and Jan18 release
 
 - General hooks
 - Pseudos limit protection
-- Sardana and Taurus4 URI
 - Testing Jan18 release on:
   - CentOS 7 (Sardana and Taurus4): MAXIV
   - Suse and Windows: ALBA
