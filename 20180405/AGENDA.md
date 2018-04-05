@@ -17,3 +17,5 @@ To be held on 2018/04/05 at 14:00
 6. Any Other Business
 	* Satellite meetings/workshops in 2018
 	* Sardana project wiki pages
+	* VideoConference tool - try Jitsi: https://meet.jit.si/sardana-followup
+	* Next meeting.
