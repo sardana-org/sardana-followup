@@ -77,7 +77,7 @@ Participants: Zbigniew Reszela (ALBA), Teresa Nunez (DESY), Antonio Milan (MAX I
 				* fits better for CI
 			* Cons:
 				* you need to install multiple repos/packages instead of just one
-			* See https://github.com/amilan/lib-maxiv-sardana_albaem
+			* See https://github.com/amilan/lib-maxiv-sardana_albaem/tree/refactoring
 		* Automate register entries (?)
 5. Pending PR distribution
 6. Any Other Business
