@@ -21,10 +21,10 @@ Participants: Zbigniew Reszela (ALBA), Teresa Nunez (DESY), Antonio Milan (MAX I
 		* Measurement groups with faulty controllers are disappearing
 		* testing new releases of Sardana and Taurus - no complaints so far
 	* DESY
-	        * Users would like to have motor limits checked before the scan (sardana-org/sardana#46)
-		        * Motor limit checking won't allow scans to the limit
-			* Scans with custom unpredictible generators can not be checked (maybe we could
-			  check if the generateor "standard" and it only then check the limits)
+		* Users would like to have motor limits checked before the scan (sardana-org/sardana#46)
+			* Motor limit checking won't allow scans to the limit
+			* Scans with custom unpredictible generators can not be checked
+			* Maybe we could check if the generateor "standard" and it only then check the limits
 			* Moved checks to pre-scan hook, so users can enable and disable it
 		* RunningMacros Door attribute
 			* possible enhancement, already used at DESY
