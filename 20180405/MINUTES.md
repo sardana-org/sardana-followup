@@ -13,6 +13,7 @@ Participants: Zbigniew Reszela (ALBA), Teresa Nunez (DESY), Antonio Milan (MAX I
 			* try to disable logging to file
 			* can be related to logging deadlock in Door attributes
 	* ALBA -> slides
+		* Information about the motor being scanned is missing in the synchronization description (sardana-org/sardana#671)
 		* Sardana on Windows
 			* using conda, no PyQt package, manual linking is a possible but it's an ugly solution, Antonio will try this
 			* entire Tango/PyTango ecosystem could be built for conda
