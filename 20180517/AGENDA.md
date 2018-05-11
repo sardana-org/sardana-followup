@@ -10,6 +10,7 @@ To be held on 2018/05/17 at 14:00
 	* Jan18 review - review TODOs
 4. New Developments, Enhancements or Bug Fixes
 	* third-party repositories
+	* on_stop function and the general repeat point condition
 5. Pending PR distribution
 6. Any Other Business
 	* Sardana Workshop 2018 (Prague)
