@@ -54,7 +54,7 @@ Participants: Zbigniew Reszela (ALBA), Teresa Nunez (DESY),
         * Problems with PoolMotorTV when (Taurus polling vs. Tango events) -
          should be fixed in the latest Taurus.
     * DESY
-        * Issues from the last meeting are still blocked but are a custom 
+        * Issues from the last meeting are still blocked but a custom 
         solution was applied to the users.
         * No new issues.
     * ALBA
@@ -85,8 +85,8 @@ Participants: Zbigniew Reszela (ALBA), Teresa Nunez (DESY),
         4. We need to gather all available solution and develop one standard.
         Sequencer could be reused in order to avoid duplication of code.
         We don't want to develop a new DSL.
-        5. DESY had already changed their controllers to return acceleration
-        time instead of the acceleration.
+        5. DESY controllers still returns acceleration instead of
+        the acceleration time - currently this is not compatible with continuous scans.
         We need to study the consequences of any renaming e.g. memorized
         attribute values, eventual archiving configured.
         6. This will be rather difficult. For the moment just use the proxy 
