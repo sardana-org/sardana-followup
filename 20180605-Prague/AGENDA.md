@@ -16,31 +16,33 @@ Zbigniew Reszela (zreszela@cells.es) or Carlos Pascual (cpascual@cells.es)
 
 ## Agenda
 
-8:30 - 8:35 - Welcome 
+9:00 - 9:05 - Welcome 
 
-8:35 - 8:50 - Macro logging (15 min) - Teresa (DESY)
+9:05 - 9:20 - Macro logging (15 min) - Teresa (DESY)
 
-8:50 - 9:05 - Sardana logging with Elastic stack (15 min) - Grzegorz 
+9:20 - 9:35 - Sardana logging with Elastic stack (15 min) - Grzegorz 
 (SOLARIS) and Antonio (MAXIV)
 
-9:05 - 9:20 - General hooks (15 min) - Teresa
+9:35 - 9:50 - General hooks (15 min) - Teresa
 
-9:20 - 9:45 - Diffractometer control (25 min) - Teresa
+9:50 - 10:15 - Diffractometer control (25 min) - Teresa
 
-9:45 - 10:30 - Continuous Scans (45 min) - Zibi (ALBA)
+10:15 - 10:45 - Continuous Scans (30 min) - Zibi (ALBA)
 
-10:30 - 10:45 - Coffee break
+10:45 - 11:00 - Coffee break
 
-10:45 - 11:10 - 2D detectors (25 min) - Zibi
+11:00 - 11:15 - 2D detectors (15 min) - Zibi
 
-11:10 - 11:40 - Taurus eval scheme (30 min) - Carlos (ALBA)
+11:15 - 11:30 - Taurus eval scheme (15 min) - Carlos (ALBA)
 
-11:50 - 12:00 - Plots with pyqtgraph (10 min) - Carlos
+11:30 - 11:40 - Plots with pyqtgraph (10 min) - Carlos
 
-12:00 - 12:15 - Taurus Custom Formatters (15 min) - Carlos
+11:40 - 11:55 - Taurus Custom Formatters (15 min) - Carlos
 
-12:15 - 12:25 - Recent bug fixes in Taurus that may affect existing codes:
+11:55 - 12:05 - Recent bug fixes in Taurus that may affect existing codes:
                 #511, #512, #678, #738, ... (10 min) - Carlos
+                
+12:05 - 12:25 - Open disucssion
 
 12:25 - 12:30 - Closure
 
