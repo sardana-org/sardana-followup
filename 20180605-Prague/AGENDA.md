@@ -42,7 +42,7 @@ Zbigniew Reszela (zreszela@cells.es) or Carlos Pascual (cpascual@cells.es)
 11:55 - 12:05 - Recent bug fixes in Taurus that may affect existing codes:
                 #511, #512, #678, #738, ... (10 min) - Carlos
                 
-12:05 - 12:25 - Open disucssion
+12:05 - 12:25 - Open discussion
 
 12:25 - 12:30 - Closure
 
