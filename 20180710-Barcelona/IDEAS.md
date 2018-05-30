@@ -4,6 +4,9 @@ In this document we put the ideas for the Sardana Documentation Camp. Later
 on we will discuss them on the follow-up meeting in order to prepare the format 
 and agenda of the camp.
 
+* We could invide (e.g. video call) some users so they comment on how they see
+the current documentation.
+
 * Video demos
     * If there is some time during the camp we could record some videos 
     (screen capture) with the demos.
