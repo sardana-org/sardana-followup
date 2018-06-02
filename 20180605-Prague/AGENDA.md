@@ -33,17 +33,17 @@ Zbigniew Reszela (zreszela@cells.es) or Carlos Pascual (cpascual@cells.es)
 
 11:00 - 11:15 - 2D detectors (15 min) - Zibi
 
-11:15 - 11:30 - Taurus eval scheme (15 min) - Carlos (ALBA)
+11:15 - 11:30 - Taurus eval scheme (15 min) - Carlos Pascual (ALBA)
 
-11:30 - 11:40 - Plots with pyqtgraph (10 min) - Carlos
+11:30 - 11:40 - Plots with pyqtgraph (10 min) - Carlos Pasucal
 
-11:40 - 11:55 - Taurus Custom Formatters (15 min) - Carlos
+11:40 - 11:55 - Taurus Custom Formatters (15 min) - Carlos Falcon (ALBA)
 
 11:55 - 12:05 - Recent bug fixes in Taurus that may affect existing codes:
-                #511, #512, #678, #738, ... (10 min) - Carlos
+                #511, #512, #678, #738, ... (10 min) - Carlos Falcon
                 
 12:05 - 12:25 - Open discussion
 
 12:25 - 12:30 - Closure
 
-12:30 - 13:30 - Lunch
+12:30 - 13:30 - Lunch at [Olivuv Pivovar](www.olivuvpivovar.cz)
