@@ -35,7 +35,7 @@ Zbigniew Reszela (zreszela@cells.es) or Carlos Pascual (cpascual@cells.es)
 
 11:15 - 11:30 - Taurus eval scheme (15 min) - Carlos Pascual (ALBA)
 
-11:30 - 11:40 - Plots with pyqtgraph (10 min) - Carlos Pasucal
+11:30 - 11:40 - Plots with pyqtgraph (10 min) - Carlos Pascual
 
 11:40 - 11:55 - Taurus Custom Formatters (15 min) - Carlos Falcon (ALBA)
 
