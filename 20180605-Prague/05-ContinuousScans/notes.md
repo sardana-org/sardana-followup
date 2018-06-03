@@ -29,6 +29,8 @@
 * taurustrend
 
 ## Pre-configuration
+* `Door> senv ActiveMntGrp mntgrp01`
+* `Door> mv mot01 0 mot02 0`
 * eliminate cs-test measurement group
 * disable interpolation: `Door> senv ApplyInterpolation False`
 
@@ -36,7 +38,7 @@
 
 1. Limits protection - example
     * `Door> set_lim mot01 0 inf`
-    * `Door> ascanct mot01 0 10 10 0.1`
+    * `Door> ascanct mot01 0 10 10 1`
     * Error: motor pre-start position -10
     * Position software limits are verified before the scan against the
       pre-start and post-end positions.
@@ -127,8 +129,7 @@
       acquisitions
     * Hardware synchronized channels may return multiple values a.k.a. chunks.
 5. Latency time - slide:
-    * `$> taurustrend -r 10 mot01/position "eval:bool({ct01/state})"`
-    * `Door> ascanct mot01 0 10 10 1 0.1`  # all acquisitions
+    * `Door> ascanct mot01 0 10 10 1 0.15`  # all acquisitions
     * Latency time may be forced by the user in order to avoid loosing software
       synchronized acquisitions.
     * Hardware synchronized controller must return proper latency time -
@@ -137,14 +138,14 @@
     * The maximum latency time (between all the controllers and the one
       specified by the user) will be used during the scan.
 6. Pseudo counters:
-    * Indexes are assigned to the returned values so they can be merged into
-      records.
-    * Pseudo counters calculations are based on indexes as well - all values are
-      necessary to perform calculations.
     * `Door> sar_info ioveri001`
     * `Door> expconf`  # add ioveri001 to the measurement group
     * `Door> ascanct mot01 0 10 10 1`  # calculations done only if both 
       values are present 
+    * Indexes are assigned to the returned values so they can be merged into
+      records.
+    * Pseudo counters calculations are based on indexes as well - all values are
+      necessary to perform calculations.
 7. Other topics:
     * No distinction is made for different trigger types: pre-trigger,
       mid-trigger and post-trigger
@@ -209,7 +210,6 @@
     * Data from different experimental channels may arrive in an arbitrary order
       but from the same experimental channel always come ordered (but may not 
       be consecutive - missed acquisitions).
-    * `Door> ascanct mot01 0 10 10 1`  #  skipped acquisitions
     * `Door> senv ApplyInterpolation True`
     * `Door> ascanct mot01 0 10 10 1`  #  interpolated values
     * Missing data may be extrapolated and interpolated (zero-order 
