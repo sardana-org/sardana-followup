@@ -31,7 +31,7 @@ Zbigniew Reszela (zreszela@cells.es) or Carlos Pascual (cpascual@cells.es)
 
 10:45 - 11:00 - Coffee break
 
-11:00 - 11:15 - 2D detectors (15 min) - Zibi
+11:00 - 11:15 - 1D and 2D detectors (15 min) - Zibi
 
 11:15 - 11:30 - Taurus eval scheme (15 min) - Carlos Pascual (ALBA)
 
