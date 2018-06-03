@@ -49,6 +49,15 @@ the *default* serialization mode for the Tango scheme to *serial*.
 
 Note that one can always set the serialization mode for individual models.
 
+e.g:
+```
+import taurus
+from taurus.core.taurusbasetype import TaurusSerializationMode
+
+attr = taurus.Attribute("tango:a/b/c/d")
+attr.setSerializationMode(TaurusSerializationMode.Concurrent) 
+```
+
 ## (WIP) Use a pool of threads to handle event callbacks (#738)
 
 ### Idea
