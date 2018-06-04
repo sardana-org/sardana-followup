@@ -74,8 +74,8 @@ print a.read().rvalue
 ... or check the available symbols::
 
 ```
-# ...
-print sorted(d.getSafe().keys())
+    # ...
+    print sorted(d.getSafe().keys())
 ```
 
 ## eval for accessing values from arbitrary modules
@@ -83,7 +83,7 @@ print sorted(d.getSafe().keys())
 Since Taurus 4.1, we can use the `@foo.*` syntax to instantiate an evaluation
 device with access to all the symbols available in the `foo` module.
 
-So, for example, for accessing the `os.apt.exists()` function we can do:
+So, for example, for accessing the `os.path.exists()` function we can do:
 
 ```
 taurusform 'eval:@os.*/path.exists("/home")'
@@ -95,12 +95,13 @@ Note that the module name can contain dots, so the following is also valid:
 taurusform 'eval:@os.path.*/exists("/home")'
 ```
 
-This is very powerful as demonstrated in the following examples:
+Here are some more examples that demonstrate how to expose all kind of info
+as taurus attributes:
 
 ```
 taurusform  'eval:@datetime.*/date.today().isoformat()'  \
-            'eval:@os.*/environ["HOST"]'           \
-            'eval:@os.path.*/getsize("/var/log/boot")<50'
+            'eval:@os.*/environ["USER"]'           \
+            'eval:@os.path.*/getsize("/var/log/messages")<50'
 ```
 
 ## eval for accessing members of class instances
@@ -136,7 +137,7 @@ taurusform 'eval:@b=foo.Bar(3)/b.even' 'eval:@b=foo.Bar(3)/b.odd' 'eval:@c=foo.B
 A more practical example using the cv2 (OpenCV) module:
 
 ```
-taurusimage 'eval:@c=cv2.VideoCapture(0)/c.read()[1][...,2]'
+taurusimage --taurus-polling-period=100 'eval:@c=cv2.VideoCapture(0)/c.read()[1][...,2]'
 ```
 
 
@@ -170,4 +171,6 @@ taurusform 'eval:@c=mymod.MyClass()/c.foo'
 
 This allows to easily wrap python modules and make them accessible to taurus
 for quick prototyping.
+
+You can find more complex examples [here](https://github.com/taurus-org/taurus/blob/develop/taurus/lib/taurus/core/evaluation/test/res/)
 
