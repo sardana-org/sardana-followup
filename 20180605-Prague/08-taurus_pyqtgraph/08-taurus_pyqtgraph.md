@@ -55,6 +55,8 @@ pip install ./taurus_pyqtgraph
 
 ## Examples
 
+### Plot data item
+
 Display a taurus 1D attribute on an otherwise pure pyqtgraph plot ([code here](https://github.com/taurus-org/taurus_pyqtgraph/blob/master/taurus_pyqtgraph/examples/taurusplotdataitem.py)):
 
 ```
@@ -68,18 +70,6 @@ python -m taurus.qt.qtgui.tpg.examples.taurusplotdataitem
 - Export
 - ...
 
-Use the tpg.TaurusPlot high-level widget...
-
-```
-python -m taurus.qt.qtgui.tpg.plot --demo
-```
-
-... and play with the taurus-added features:
-- XY Model chooser (TaurusXYModelChooserTool)
-- plot configuration (CurvesPropertiesTool)
-- Secondary Y axis (Y2ViewBox)
-- show legend (PlotLegendTool)
-- Save/Retrieve configuration (tpg.TaurusPlot)
 
 ### TrendSet item
 
@@ -94,3 +84,28 @@ python -m taurus.qt.qtgui.tpg.examples.taurustrendset
 - Date-time axis support (DateAxisItem)
 - X-Axis -> Fixed Range Scale , a.k.a. "oscilloscope mode" (XAutoPanTool)
 - Forced Read (ForcedReadTool)
+
+
+### tpg.TaurusPlot high level widget
+
+Use the tpg.TaurusPlot high-level widget...
+
+```
+python -m taurus.qt.qtgui.tpg.plot --demo
+```
+
+... and play with the taurus-added features:
+- XY Model chooser (TaurusXYModelChooserTool)
+- plot configuration (CurvesPropertiesTool)
+- Secondary Y axis (Y2ViewBox)
+- show legend (PlotLegendTool)
+- Save/Retrieve configuration (tpg.TaurusPlot)
+
+
+### tpg image item
+
+The support for image items is still very preliminary. See ([code here](https://github.com/taurus-org/taurus_pyqtgraph/blob/master/taurus_pyqtgraph/taurusimageitem.py))
+
+```
+python -m taurus.qt.qtgui.tpg.taurusimageitem
+```
