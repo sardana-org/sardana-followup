@@ -116,7 +116,7 @@ For example, create a `/tmp/examples/` directory  and add it to the PYTHONPATH:
 
 ```
 mkdir -p /tmp/examples
-export PYTHONPATH=/tmp/examples;$PYHTONPATH
+export PYTHONPATH=/tmp/examples:$PYTHONPATH
 ```
 
 Now create `/tmp/examples/foo.py` in it with the following content:
