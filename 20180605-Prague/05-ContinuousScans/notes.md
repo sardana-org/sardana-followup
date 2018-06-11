@@ -51,8 +51,7 @@
     * Scan velocity is calculated for each of the motors taking into account the
       integration and latency times and the motor's displacement
 3. Velocity (maximum velocity, backup & restore) - example:
-    * `$> taurustrend mot01/position` or
-      `$> taurustrend --config=taurustrend-velocity.pck`
+    * `$> taurustrend mot01/position`
     * mot01 maximum velocity limit set to 100 (jive)
     * `Door> set_lim mot01 -inf inf`
     * `Door> mot01.velocity = 10`
@@ -68,8 +67,7 @@
     * Backup motor attributes are restarted after the scan.
 5. Pseudo motors scan - example: 
     * `Door> mv mot01 0 mot02 0`
-    * `$> taurustrend mot01/position mot02/position gap01/position` or
-      `$> taurustrend --config=taurustrend-pseudomotor.pck`
+    * `$> taurustrend mot01/position mot02/position gap01/position`
     * `Door> ascanct gap01 0 10 10 1`
     * Even if the user asked for the scan of the pseudo motor the scan is
       executed on the physical motors always - all of them move on the linear
@@ -97,8 +95,7 @@
     * `Door> defmeas cs-test ct01 ct12`
     * `Door> senv ActiveMntGrp cs-test`
     * `$> taurustrend -r 10 mot01/position "eval:bool({ct01/state})"
-      "eval:bool({ct12/state})"` or
-      `$> taurustrend --config=taurustrend-counter.pck`
+      "eval:bool({ct12/state})"`
     * `Door> ascanct mot01 0 10 10 1`  # skipped acquisitions
     * When measurement group is created all its channels preconfigured
       to use software synchronization
