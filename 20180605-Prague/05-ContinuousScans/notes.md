@@ -58,13 +58,13 @@
     * `Door> mv mot01 30`
     * `Door> ascanct mot01 0 10 10 1`
     * `Door> mv mot01 0`
-    * All motors goes to the pre-start position with the maximum velocity (if
+    * All motors go to the pre-start position with the maximum velocity (if
       defined).
     * All motors corrects the overshoot (go to the end position) with
       the maximum velocity (if defined)
     * Motors attributes (acceleration, deceleration and velocity) are backup
       before any modification.
-    * Backup motor attributes are restarted after the scan.
+    * Backup motor attributes are restored after the scan.
 5. Pseudo motors scan - example: 
     * `Door> mv mot01 0 mot02 0`
     * `$> taurustrend mot01/position mot02/position gap01/position`
@@ -79,7 +79,7 @@
       of the scan.
     * Motor position updates are used as the base for the software
       synchronization (see `MotionLoop_StatesPerPosition` and
-      `MotionLoop_SleepTime`) - big amount of motor groups and pseudo motors may
+      `MotionLoop_SleepTime`) - too many motor groups and pseudo motors may
       affect the position updates freqeuncy as well.
     * Motor which does not reach the final position will cause the software
       synchronizer wait infinitelly - watchdog mechanism (15 seconds timeout)
@@ -148,7 +148,7 @@
       mid-trigger and post-trigger
 8. TODOs:
     * Optimize software acquisition - not necessary to load on every point, 
-      reducte time overheads
+      reduce time overheads
     * Exceptions during the acquisition are just reported with the measurement
       group's fault state - lack of feedback what actually went wrong.
     * Extra attributes (Tango attributes) are not directly supported yet - one
