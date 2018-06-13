@@ -27,12 +27,22 @@ depends on Taurus.
 * Features missing in the Sardana documentation
     * MacroServer environment variables (only scan related variables are 
     documented)
-    * New Spock syntax for repeat parameters
+    * _Spock syntax_ and _Advanced Spock Syntax_ (could be inspired on
+    [sardana-org/sardana#781](https://github.com/sardana-org/sardana/pull/781) and
+    [sardana-org/sardana#405](https://github.com/sardana-org/sardana/pull/405))
     * Spock magic commands
     * Continuous Scans
     * Macro Logging
     * General Hooks
     * Configuration Tools
+
+* Documentation that requires updates/modifications:
+    * [Spock](http://www.sardana-controls.org/en/latest/users/spock.html) user
+    documentation contains too much information e.g. "Moving motors", "Counting"
+    This could be moved to a dedicated chapter e.g. "Sardana demo" or
+    "Sardana in 5 min" comprising execution of `sar_demo` and usage of dummy elements.
+    * [Scan Hooks documentation](http://www.sardana-controls.org/en/latest/devel/howto_macros/scan_framework.html#hooks-support-in-scans) is not clear. Especially the difference between the Hooks API
+    and the hooks being attached in the GSF generators.
 
 * Documentation of the macros in the macro catalogue is duplicated. We need 
 to find a way on how to reuse the macro classes/functions docstrings. 
