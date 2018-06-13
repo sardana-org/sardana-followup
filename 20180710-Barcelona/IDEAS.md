@@ -23,6 +23,10 @@ depends on Taurus.
 * Move from ReadTheDocs to GitHub Pages
     * This would allow us to get rid of the mocks.
     * Taurus is already in GithHub Pages, we could reuse its configuration.
+
+* Spock macro's help e.g. `ascan?` show the path to the file where the magic
+command is defined e.g. `~/workspace/sardana/src/sardana/spock/spockms.py`.
+Maybe we could show the path to the macro module.
     
 * Features missing in the Sardana documentation
     * MacroServer environment variables (only scan related variables are 
