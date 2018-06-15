@@ -39,6 +39,7 @@ Maybe we could show the path to the macro module.
     * Macro Logging
     * General Hooks
     * Configuration Tools
+    * Diffractometer
 
 * Documentation that requires updates/modifications:
     * [Spock](http://www.sardana-controls.org/en/latest/users/spock.html) user
