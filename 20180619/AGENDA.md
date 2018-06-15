@@ -12,11 +12,11 @@ To be held on 2018/06/19 at 14:00
     * Present structure of the Sardana-DESY documentation
       (the same as previous point witht focus on the parts
       of the docs which are generic and could be moved to
-      the Sardana documentation).
+      the Sardana documentation) - Teresa.
     * Best practices when writing documentation
       (I found Writing Great Documentation from www.writethedocs.org
       but couldn't read it yet), for sure there are more sources in
-      the internet.
+      the internet - Antonio.
     * Present a documentation strucuture of some other well
       documented project (maybe we could take a look on Tango
       which documentation was recently rewritten).
