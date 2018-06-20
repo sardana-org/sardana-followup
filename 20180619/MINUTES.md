@@ -9,6 +9,22 @@ Participants: SOLARIS - Grzegorz Kowalski, MAXIV - Antonio Milán,
 1. Urgent issues/problems
 
 * MAXIV
+  * Vicente is at MaxIV debugging problems and working on logging.
+  Logging improvements could be driven as a new SEP.
+  * Logging improvements were done by Vincent and Antoine and a PR will be
+  proposed soon.
+  * MaxIV is using supervisor for starting Tango Device Servers.
+
+* Solaris
+  * Started using Elastic with Sardana
+  * Upgrade Sardana at one of the beamlines to version 2.4 is in progress.
+  * Tested bash session transcript (`script` command) as an alternative to
+  "Macro Logging". It works well with spock. Colors are also saved - this may
+  be problematic to certain editors.
+  * Py2exe is not maintained since 2014, so it's probably not an option.
+
+* DESY
+  * No issues/problems
 
 * ALBA
   * Problems with the standard errors log files written by Tango:
