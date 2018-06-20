@@ -40,6 +40,10 @@ Maybe we could show the path to the macro module.
     * General Hooks
     * Configuration Tools
     * Diffractometer
+    * Sardana-Taurus Widgets
+      * MacroButton
+      * Showscan
+    * Taurus extensions
 
 * Documentation that requires updates/modifications:
     * [Spock](http://www.sardana-controls.org/en/latest/users/spock.html) user
