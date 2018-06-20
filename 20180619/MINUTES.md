@@ -31,11 +31,11 @@ Participants: SOLARIS - Grzegorz Kowalski, MAXIV - Antonio Milán,
     all Tango Server write log files with the standard errors (one file
     and three backups are kept in a default directory), due to some controllers
     a lot of logs were written and the log files reached more than 1GB. There
-    was a lot of duplication messages and the logger was not able to write
-    the file, showing the error number 27 "Not able to write to file".
+    were a lot of deprecation messages and the logger was not able to write
+    the file, showing the error IOError (Errno 27) "File too large".
     Neither Tango nor Sardana have made changes affecting the logging,
-    the observerd problem depends on settings of the system/directory,
-    like limit of the files size.
+    the observerd problem depends on settings of the system/partition mounting,
+    like limit of the files size, etc.
     MAXIV could have observed the same effect.
   
 2. Preparation of the Sardana Documentation Camp (Alba-July18)
