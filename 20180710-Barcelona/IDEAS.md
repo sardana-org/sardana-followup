@@ -38,6 +38,8 @@ Maybe we could show the path to the macro module.
     * Continuous Scans
     * Macro Logging
     * General Hooks
+    * Configuration
+        * PoolPath, MacroPath and PythonPath properties
     * Configuration Tools
     * Diffractometer
     * Sardana-Taurus Widgets
