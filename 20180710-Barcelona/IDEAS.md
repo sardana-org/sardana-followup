@@ -46,6 +46,7 @@ Maybe we could show the path to the macro module.
       * MacroButton
       * Showscan
     * Taurus extensions
+    * How to import spock syntax files in sequencer.
 
 * Documentation that requires updates/modifications:
     * [Spock](http://www.sardana-controls.org/en/latest/users/spock.html) user
