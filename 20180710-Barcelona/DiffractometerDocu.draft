@@ -72,7 +72,8 @@ pool.command_inout("CreateController", params)
  
 
 for creating the devices corresponding to a diffractometer with E6C geometry, 
-where hostname:10000/motor/realdiffmot/x are the names of the pool device associated to each real motor (already existing Motors in sardana),
+where hostname:10000/motor/realdiffmot/x are the names of the pool device
+associated to each real motor (already existing Motors in sardana),
 e6cctrl is an arbitrary name given to the controller,
 and e6ch, ee6ck , e6cl, e6cpsi, e6cq, e6calpha, e6cqper1, e6cqpar are the
 arbitrary names given to the motors in reciprocal space (PseudoMotors in
