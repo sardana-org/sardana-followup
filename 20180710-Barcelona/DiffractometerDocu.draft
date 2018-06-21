@@ -24,7 +24,8 @@ property, DiffractometerType, is created for setting the corresponding geometry.
 The class properties appear as Tango Device Properties of the device corresponding
 to this controller in the Pool process. The value of the class properties has to be
 assigned when the instance of the diffractometer controller is generated in the Pool.
-It is fixed for each diffractometer controller, it can not be changed during running time.  
+It is fixed for each diffractometer controller, it can not be changed during
+running time.  
 
 Up to now the following diffractometer classes are implemented:
 
@@ -46,7 +47,10 @@ Diffrac4Cp23 (possible DiffractometerType values: "PETRA3 P23 4C")
    incidence, emergence
 
  In order to have the diffractometer in sardana one has to create a PseudoMotor
- controller of any of the above classes, this will generate the controller device, for setting the diffractometer, and the pseudo motor devices, for the reciprocal space movements. The real motors have to be included as motors in sardana, like the motors assotiated to any other PseudoMotor.
+ controller of any of the above classes, this will generate the controller
+ device, for setting the diffractometer, and the pseudo motor devices, for
+ the reciprocal space movements. The real motors have to be included as motors
+ in sardana, like the motors assotiated to any other PseudoMotor.
  Ex.
 
 params = ["PseudoMotor",
@@ -71,11 +75,15 @@ for creating the devices corresponding to a diffractometer with E6C geometry,
 where hostname:10000/motor/realdiffmot/x are the names of the pool device associated to each real motor (already existing Motors in sardana),
 e6cctrl is an arbitrary name given to the controller,
 and e6ch, ee6ck , e6cl, e6cpsi, e6cq, e6calpha, e6cqper1, e6cqpar are the
-arbitrary names given to the motors in reciprocal space (PseudoMotors in sardana, created by this call).
+arbitrary names given to the motors in reciprocal space (PseudoMotors in
+sardana, created by this call).
 
-The diffractometer controller device contains as attributes (since it is not possible add extra commands to the controllers) all the commands and settings for
+The diffractometer controller device contains as attributes (since it is not
+possible add extra commands to the controllers) all the commands and settings for
 the diffractometer control. The hkl library needs the parameters to be set in
-a given order for being inizialized correctly, for that reason the attribute values are not stored in the tango database. The best practise is to save the parameters in a file and load it when startup. Example of a file:
+a given order for being inizialized correctly, for that reason the attribute
+values are not stored in the tango database. The best practise is to save the
+parameters in a file and load it when startup. Example of a file:
 
 """
 Created at 2018-05-28 01:50
@@ -109,13 +117,21 @@ Ux -94.4630713237 Uy 19.3202405308 Uz -162.577336525
 SaveDirectory /home/p09user/crystals
 """
 
-The configuration files can be created by the diffractometer controller by calling the attribute SaveCrystal. They are loaded by the attribute LoadCrystal.
-If nothing is loaded the diffractometer will be inizialized with Sample set to 'default crystal', lattice, wavelenth and geometry set to the corresponding hkl library default values (according to the geometry) and engine set to 'hkl'.
+The configuration files can be created by the diffractometer controller by
+calling the attribute SaveCrystal. They are loaded by the attribute LoadCrystal.
+If nothing is loaded the diffractometer will be inizialized with Sample set to
+'default crystal', lattice, wavelenth and geometry set to the corresponding
+hkl library default values (according to the geometry) and engine set to 'hkl'.
 
-The wavelength used for the diffractometer can be automatically updated setting the attribute AutoEnergyUpdate to 1 and the name of the Tango Device controlling
-the beam energy in the attribute EnergyDevice. The energy is read from the attribute Position of the EnergyDevice device, in eV, every time motor or pseudomotor positions are read.
+The wavelength used for the diffractometer can be automatically updated setting
+the attribute AutoEnergyUpdate to 1 and the name of the Tango Device controlling
+the beam energy in the attribute EnergyDevice. The energy is read from the
+attribute Position of the EnergyDevice device, in eV, every time motor or
+pseudomotor positions are read.
 
-Sardana provides standard macros for controlling the diffractometer (hkl.py macro lib file). They need the name of the diffractometer controller device in the Pool to be set in the macroserver environment variable DiffracDevice.
+Sardana provides standard macros for controlling the diffractometer (hkl.py
+macro lib file). They need the name of the diffractometer controller device
+in the Pool to be set in the macroserver environment variable DiffracDevice.
 If the Psi angle (azimuth) wants to be used, the environment variable Psi has to
 be set, with the name corresponding PseudoMotor Pool device.
 
