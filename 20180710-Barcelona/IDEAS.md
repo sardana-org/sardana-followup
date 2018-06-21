@@ -54,6 +54,7 @@ Maybe we could show the path to the macro module.
     "Sardana in 5 min" comprising execution of `sar_demo` and usage of dummy elements.
     * [Scan Hooks documentation](http://www.sardana-controls.org/en/latest/devel/howto_macros/scan_framework.html#hooks-support-in-scans) is not clear. Especially the difference between the Hooks API
     and the hooks being attached in the GSF generators.
+    * [Writing Controllers](http://www.sardana-controls.org/en/latest/devel/howto_controllers/index.html)  is not complete. Not clearly listed the minimum methods that have to be definded in a controller in order to be working in Sardana. Not described the differences in performance between controller types, for example between Counter/Timer and OD controllers.
 
 * Documentation of the macros in the macro catalogue is duplicated. We need 
 to find a way on how to reuse the macro classes/functions docstrings. 
