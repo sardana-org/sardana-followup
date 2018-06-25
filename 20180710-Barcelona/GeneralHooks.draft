@@ -1,0 +1,23 @@
+Hooks can be used in two different ways:
+
+- attached to a given Hookable macro (standard hooks)
+- attached to all Hookable macros with the hook hint allowed
+  (general hooks)
+
+The motivation for implementing the general hooks was the customization
+of the scan macros without having to redefine them.
+The general hooks apply to all Hookable macros and allow the definition
+of new hints. All available macros can be used as general hooks.
+They are controlled via an internal Macroserver environment variable,
+that can be set/unset via dedicated macros.
+For each hook position several hooks can be run, they will be run in the
+order they were added. The same hook can run several times in the same position
+if it is added several times.
+
+Examples:
+
+- Check motor limits in step scans (pre-scan)
+- Prepare 2D detectors: create directories, set save directory, file name,
+  file index (pre-scan)
+- Set attenuators, set undulator, check shutter, check current (pre-scan)
+- Restore changes (post-scan)
