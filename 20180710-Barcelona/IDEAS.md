@@ -55,7 +55,13 @@ Maybe we could show the path to the macro module.
     * Sardana internals for core developers are not documented:
       * photos with UML diagrams
       * no documentation about how a controller plugin become a tango device
+      * Present the sequence of API calls to controllers during macros (mv, ct, step scan, continuous scan...)
     * What can be done and what not in with the measurement group?
+    * A more clear description of a trigger/gate controller
+    * Clarify the measurement simultaneous usage.
+    * Review Controller overview chapter page (for instance, Trigger/gate controller is missing).
+    * Decide what belongs to public API and autogenerate docs for all these classes
+    * Always have simple (minimal) and advanced examples and clearly separate them
     
 
 * Documentation that requires updates/modifications:
