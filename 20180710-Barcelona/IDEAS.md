@@ -36,18 +36,27 @@ Maybe we could show the path to the macro module.
     [sardana-org/sardana#405](https://github.com/sardana-org/sardana/pull/405))
     * Spock magic commands
     * Continuous Scans
+      * How to integrate your hardware with countinuous scans
+      * How to develop your own continuous scans
     * Macro Logging
     * General Hooks
     * Configuration
-        * PoolPath, MacroPath and PythonPath properties
+      * PoolPath, MacroPath and PythonPath and other properties
+      * sardanacustomsettings module
     * Configuration Tools
+      * Guide on how to configure new controllers/elements/measurement groups etc.
     * Diffractometer
     * Sardana-Taurus Widgets
       * MacroButton
       * Showscan
-    * Taurus extensions
+    * Taurus extensions e.g. Motor interface, MeasurementGroup interface, etc.
     * How to import spock syntax files in sequencer.
     * Add more details to report feature, how configure it, where is it writen?
+    * Sardana internals for core developers are not documented:
+      * photos with UML diagrams
+      * no documentation about how a controller plugin become a tango device
+    * What can be done and what not in with the measurement group?
+    
 
 * Documentation that requires updates/modifications:
     * [Spock](http://www.sardana-controls.org/en/latest/users/spock.html) user
