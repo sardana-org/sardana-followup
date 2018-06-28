@@ -47,6 +47,7 @@ Maybe we could show the path to the macro module.
       * Showscan
     * Taurus extensions
     * How to import spock syntax files in sequencer.
+    * Add more details to report feature, how configure it, where is it writen?
 
 * Documentation that requires updates/modifications:
     * [Spock](http://www.sardana-controls.org/en/latest/users/spock.html) user
@@ -56,6 +57,10 @@ Maybe we could show the path to the macro module.
     * [Scan Hooks documentation](http://www.sardana-controls.org/en/latest/devel/howto_macros/scan_framework.html#hooks-support-in-scans) is not clear. Especially the difference between the Hooks API
     and the hooks being attached in the GSF generators.
     * [Writing Controllers](http://www.sardana-controls.org/en/latest/devel/howto_controllers/index.html)  is not complete. Not clearly listed the minimum methods that have to be definded in a controller in order to be working in Sardana. Not described the differences in performance between controller types, for example between Counter/Timer and OD controllers.
+    * Writing CT controller: `StartAll` seems to be necessary to be implemented and it is not documented.
 
-* Documentation of the macros in the macro catalogue is duplicated. We need 
+* Technical question:
+   * Documentation of the macros in the macro catalogue is duplicated. We need 
 to find a way on how to reuse the macro classes/functions docstrings. 
+   * How to show multiple next steps at the end of the chapter
+   * Is it possible to add tags/labels in the distributed chapters so it would be easy to autogenerate a table of contents of them
