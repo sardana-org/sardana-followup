@@ -1,0 +1,46 @@
+* Diffractometer related:
+
+DiffracDevice (mandatory, set by user) -> name of the diffractometer device (tango device name of the Pool device of the class HklPseudoMotorCtrl) to be used by the hkl macros.
+
+Psi (not mandatory, set by user) -> name of the psi device (tango device of the class PseudoMotor in the pool corresponding to the azimuthal angle)
+
+Q (mandatory, set by macro wh) -> Q vector
+
+* Macro Logging related:
+
+LogMacro (not mandatory, set by user) -> if true macro logging on,
+                                         if false or not set macro logging off
+
+LogMacroDir (not mandatory, set by user or to default value,\tmp, by macro) ->
+                                         directory to save the macro logging file
+
+LogMacroMode (not mandatory, set by user or to default value, 0,  by macro) ->
+                                         number of backup files to be saved
+
+LogMacroFormat (not mandatory, set by user or to default value by macro) ->
+                                         line file format
+					 
+* Scan related (http://www.sardana-controls.org/en/latest/users/scan.html#configuration):
+
+ActiveMntGrp (mandatory, set by user)
+ApplyInterpolation (not mandatory, set by user)
+ApplyExtrapolation (not mandatory, set by user)
+ExtraColumns (not mandatory, set by user)
+SampleInfo (not mandatory, set by user)
+SourceInfo (not mandatory, set by user)
+PreScanSnapshot (not mandatory, set by user)
+ScanDir (mandatory if file wants to be saved, set by user)
+ScanFile (mandatory if file wants to be saved, set by user)
+SharedMemory (not mandatory, set by user)
+ScanRecorder (not mandatory, set by user)
+OutputCols (not mandatory, set by user)
+JsonRecorder
+
+* Motions
+
+MotionDecoupled
+
+* Intern:
+
+_ViewOptions
+
