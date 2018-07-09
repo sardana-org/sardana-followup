@@ -28,6 +28,14 @@
    Push simple changes directly to the upstream.
 8. *Ready for dev* column contains a separator. Below the separator are easy issues for quick developments.
 
+## Where to look for information
+
+* [Training materials](https://github.com/sardana-org/sardana-training) and [Sardana Training Session](https://sourceforge.net/p/sardana/wiki/SardanaTraining-WorkshopBCN20130522) from the 1st Sardana Workshop.
+* [Follow-up meeting materials](https://github.com/sardana-org/sardana-followup)
+* Old Sardana [Documentaion](http://www.sardana-controls.org/en/latest/devel/api/tango_device_pool.html) - be carefull some information may not be valid anymore.
+* Sardana papers, for example uploaded to http://www.jacow.org/
+* Sardana issues/pr discussions
+* SEPs
 
 ## Usefull links:
 
