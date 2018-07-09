@@ -26,7 +26,7 @@
 6. If something is not clear e.g. where or how to document it don't hesitate to ask.
 7. Create PR only if it is necessary, for example, don't bother peer reviewers with typos.
    Push simple changes directly to the upstream.
-8. In *Ready for dev* column contains a separator. Below the separator are easy issues for quick developments.
+8. *Ready for dev* column contains a separator. Below the separator are easy issues for quick developments.
 
 
 ## Usefull links:
