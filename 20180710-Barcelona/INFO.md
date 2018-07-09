@@ -21,8 +21,9 @@
    Limit WIP and favor reviwing PR over writing new docs.
 2. The project board contains issues and cards.
 3. Some issues are big enough to be splitted into smaller issues or cards - feel free to do that.
-4. If something is not clear e.g. where or how to document it don't hesitate to ask.
-5. Use PR only if it is necessary, for example, don't bother peer reviewers with typos.
+4. Allways assign yourself to issues when you start working on them. (for cards add a tag e.g. \[reszelaz\])
+5. If something is not clear e.g. where or how to document it don't hesitate to ask.
+6. U PR only if it is necessary, for example, don't bother peer reviewers with typos.
    Push simple changes directly to the upstream.
 
 
