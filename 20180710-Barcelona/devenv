@@ -1,0 +1,2 @@
+export PYTHONPATH=/home/training01/workspace/local/lib/python2.7/site-packages:$PYTHONPATH
+export PATH=/home/training01/workspace/local/bin:$PATH
