@@ -16,3 +16,6 @@
    * MacroServer server - MacroServer server process
    * Macro - user procedure
    * Spock - Sardana CLI
+4. **Which writing style should I use?**
+   We suggest to use the second person writing style, for example:
+   "In order to stop the macro you need to press Ctrl+C".
