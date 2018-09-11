@@ -18,3 +18,4 @@ To be held on 2018/09/13 at 14:00
 6. Any Other Business
     * Sardana Documentation Camp summary.
     * Brainstorming on how to improve and organize work.
+    * Release process summary and ideas
