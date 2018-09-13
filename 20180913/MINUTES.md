@@ -9,17 +9,16 @@ Release process summary and ideas
 - Rotative process. Next release done by Teresa or Antonio and share eas.
 - Project Dashboard on Github are very useful.
 - Next Release on January/February.
-- How to Release:
-  - https://github.com/~w_to_release.md
+- [How to Release](https://github.com/sardana-org/sardana/blob/develop/doc/how_to_release.md)
 
 ## 2. User Experience Report
 
 - Alba:
   - Lack of documentation about Hooks
-  - General Scan for Acquisition. Workflow not documented
+  - General Scan or Acquisition workflows are not documented
   - Validation of Environment Variables.
 - Solaris:
-  - Moving a motor with umv (or any macro that updates the output) d cancel the movement, spock will give you a traceback. (Polling     volved on some attributes)
+  - Moving a motor with umv (or any macro that updates the output) and cancel the movement, spock will give you a traceback. (Polling involved on some attributes)
 - Desy:
   - Change to Debian 9, new Taurus and Sardana
   - Move a motor and atk panel doesn't update the position. Client don't get events.
@@ -33,6 +32,7 @@ Release process summary and ideas
 
 - Spock syntax. PR as WIP to improve the parser
 - General Stop Function. Check if there is an issue for this one or create a new one. (issue #202)
+- Logstash handler asynchronous behavior
 
 ## 4. New Developments, Enhancements or Bug Fixes
 
@@ -51,7 +51,7 @@ Release process summary and ideas
 - #695: WIP  
 - #764: Assigned to Zbigniew
 - #777: Zbigniew, Teresa and Grzegorz to work on it
-- #782: Assign to Antonio. (Idea: have a general locking of hooks)
+- #782: Assign to Antonio. (Idea: have a general logging of hooks)
 - #816: Assign to Grzegorz
 
 Pending to be reviewed:
@@ -68,7 +68,7 @@ Pending to be reviewed:
 - Sardana Documentation Camp Summary (slides from Zbigniew):
   - Sardana Training materials
   - Outdated documentation was mixed with the up to date cumentation
-  - How to install Sardana and its dependencies on Windows is not ear
+  - How to install Sardana and its dependencies on Windows is not clear
   - How to integrate real hardware with Sardana? Simple comendations. TODO.
 - Brainstorming on how to improve and organize work
   - Move to 4th of Oct.
