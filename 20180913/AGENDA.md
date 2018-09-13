@@ -5,7 +5,7 @@ To be held on 2018/09/13 at 14:00
 # Agenda
 
 1. Presentation
-    * Any volunteer?
+    1.1 Release process summary and ideas.
 
 2. User Experience Report - Round Table
 
