@@ -67,10 +67,10 @@ Pending to be reviewed:
 
 - Sardana Documentation Camp Summary (slides from Zbigniew):
   - Sardana Training materials
-  - Outdated documentation was mixed with the up to date cumentation
+  - Outdated documentation was mixed with the up to date documentation
   - How to install Sardana and its dependencies on Windows is not clear
-  - How to integrate real hardware with Sardana? Simple comendations. TODO.
+  - How to integrate real hardware with Sardana? Simple recommendations. TODO.
 - Brainstorming on how to improve and organize work
   - Move to 4th of Oct.
 - NoBugs 2018?
-- Find another tool for Videoconference
+- Find another tool for video-conference
