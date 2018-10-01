@@ -6,7 +6,7 @@ Release process summary and ideas
 
 - More automatization of the release process.
 - Simplify process
-- Rotative process. Next release done by Teresa or Antonio and share eas.
+- Rotative process. Next release done by Teresa or Antonio with help/guidance of Grzegorz or Zibi.
 - Project Dashboard on Github are very useful.
 - Next Release on January/February.
 - How to Release:
