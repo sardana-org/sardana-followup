@@ -5,10 +5,10 @@ This one will be a bit unusual, since we will focus more on improving our work
 
 # Agenda
 1. Quick overview of urgent issues
-	* Alternative to appear.in
 	* Current development problems
 	* New urgent issues (if any)
 2. Brainstorming
-	* GitHub project boards
-	* GitHub teams
-	* Git plugin for git-flow
+	* Follow-up meetings
+	* Video conference tool
+	* Issue prioritization (feedback, priority decisions, tools)
+	* Collaborative development (Slack, project boards, pair programming)
