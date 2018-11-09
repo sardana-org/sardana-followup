@@ -38,8 +38,9 @@ improving our work.
 	     backups, snapshots)
 	    * Alba: expconf reacting on events can have side effects - already 
 	    reported to github - will be fixed for Jan19
-	    * Desy: Ctrl+C does not stop motors - Teresa will try tro reproduce 
-	    it and report it on GitHub.	    
+	    * Desy: Ctrl+C forces to restart the MacroServer if any motor
+	      get stack or return an exception from its StopMove - Teresa will try tro
+	      reproduce it and report it on GitHub.	    
 2. Brainstorming
 	* Review of last brainstorming outputs:
 	    * Follow-up meetings
