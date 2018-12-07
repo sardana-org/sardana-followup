@@ -1,8 +1,6 @@
 # Sardana Follow-up Meeting - 2018/12/13
 
 To be held on 2018/12/13 at 14:00  
-Similar to the previous one will be a bit unusual, since we will focus more on 
-improving our work.
 
 # Agenda
 1. Urgent user problems/issues - Round table
@@ -13,7 +11,9 @@ improving our work.
 	* Urgent PRs:
 	   * Hotfix 2.5.1
 	   * ...
-3. Brainstorming
+3. Comments about Sardana presentation in the "Automation in Beamline 
+   Control and Data Acquisition Workshop" (to be held in Berlin - January 2019)
+4. Brainstorming
 	* Review of:
 	    * Video conference tool
 	    * Issue prioritization
