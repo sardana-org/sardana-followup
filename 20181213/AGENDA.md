@@ -13,7 +13,8 @@ To be held on 2018/12/13 at 14:00
 	   * ...
 3. Comments about Sardana presentation in the "Automation in Beamline 
    Control and Data Acquisition Workshop" (to be held in Berlin - January 2019)
-4. Brainstorming
+4. Review Jan18 milestones
+5. Brainstorming
 	* Review of:
 	    * Video conference tool
 	    * Issue prioritization
