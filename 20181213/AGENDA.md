@@ -6,7 +6,9 @@ To be held on 2018/12/13 at 14:00
 1. Urgent user problems/issues - Round table
 2. Overview of current developments
 	* Check motor limits before starting scan
+	* Asynchronous Logstash Communication - PR#895
 	* SEP18
+	* Independent acquisition of experimental channels - issue#185
 	* SEP2
 	* Urgent PRs:
 	   * Hotfix 2.5.1
