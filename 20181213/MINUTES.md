@@ -65,9 +65,10 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Antonio Mi
      
    * DESY:
      - in one beamline the measurement group stays for ever in MOVING at
-     some point of the scan. One has to stop the measurement group, calling
-     its Stop command from some other client, and the scan continues without
-     problems. A script was done for detecting this and solving it stoping
+     some point of the scan, even if all its channels are in ON.
+     One has to stop the measurement group, calling its Stop command from
+     some other client, and the scan continues without problems.
+     A script was done for detecting this and solving it stoping
      the measurement group. It happens several times per day. It will be
      investigated in detail next week.
      - big delays at the beginning of the scans if all the motor positions were
@@ -87,7 +88,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Antonio Mi
 	* Asynchronous Logstash Communication - PR#895. The last modifications
 	were done, a last test would be done and then it would be ready
 	for being integrated.
-        At MAXIV the log files are written  using filebeat from logstash, the
+        At MAXIV the log files are read with filebeat and sent to logstash, the
 	configuration is easy and does not need modifications in Sardana.
 	Antonio offers this as another alternative.
         The documentation will be put in the wiki because it is not a
@@ -95,12 +96,12 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Antonio Mi
 	* SEP18, the development is done. The PR is fast reviewed,
 	there are still some decisions to take. About the controller API,
 	if there is no comments the option 1 will be used. The rest of the
-	things are implemented. Stop channels configured with hardware
-	trigger will go to another scope, for not stopping the development of
-	SEP2. It has to be documented for the user point of view but this will
-	not be done until SEP2 is finished. The SEP18 is documented by itself
-	for the developers. A comment in the user documentation will be done
-	for the moment.
+	things are implemented. Stop channels configured with software
+	trigger/gate will go to another scope, for not stopping the
+	development of	SEP2. It has to be documented for the user point
+	of view but this will not be done until SEP2 is finished. The
+	SEP18 is documented by itself for the developers. A comment in
+	the user documentation will be done for the moment.
 	* Independent acquisition of experimental channels - issue#185. This
 	feature does sep2 development more developers friendly, since SEP2
 	speaks about reporting references to the data and configuring the
