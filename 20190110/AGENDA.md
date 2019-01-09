@@ -12,8 +12,8 @@ To be held on 2019/01/10 at 14:00
 	* Add support to Qt5
 3. Comments about Sardana presentation in the "Automation in Beamline 
    Control and Data Acquisition Workshop" (to be held in Berlin - January 2019)
-4. Review Jan18 milestones
-5. Coordinate Jan18 release
+4. Review Jan19 milestones
+5. Coordinate Jan19 release
 6. Brainstorming (most probably there will be no time to cover this)
 	* Review of:
 	    * Issue prioritization
