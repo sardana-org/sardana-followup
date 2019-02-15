@@ -26,7 +26,7 @@ Participants:
      > Add link to presentation
      > Add link to the issues
      * Zibi able to run a Sardana instance configured with Beacon
-     * Different solutions available coming from  Alba (outdated), Desy (speficid), MaxIV (DS Config)
+     * Different solutions available coming from  Alba (outdated), Desy (specific), MaxIV (DS Config)
    
    * Independent/direct acquisition of timerable channels
      * Timerables: countertimers 1D and 2D ready
