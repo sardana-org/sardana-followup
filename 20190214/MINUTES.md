@@ -58,7 +58,7 @@ Participants:
    * Jan19 Release:
        * Board created for planning the release. It could start on Monday.
    * Update on SEP2
-       * See [slides]((https://github.com/sardana-org/sardana-followup/blob/master/20190214/AlbaPresentation.pdf))
+       * See [slides](https://github.com/sardana-org/sardana-followup/blob/master/20190214/AlbaPresentation.pdf)
        * One frame per one value reference, is it enough?
        * TODO:
            * Python3 value references as strings or bytes?
