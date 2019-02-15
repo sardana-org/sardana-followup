@@ -2,6 +2,13 @@
 
 Minutes from the meeting held on 2019/02/14.
 
+Participants:
+
+- ALBA: Zbigniew Reszela
+- DESY: Teresa Núñez
+- MAXIV: Antonio Milán
+- SOLARIS: Grzegorz Kowalski
+
 ## Actions
 
 - [ ] MAX IV to share their developments/prototype with Jupyter Notebooks and Sardana.
@@ -16,9 +23,9 @@ Minutes from the meeting held on 2019/02/14.
 ## 2. Presentations:
    
    * Beacon Server (Bliss project)
-     * Add link to presentation
-     * Add link to the issues
-     * Zibi running sardana with Beacon
+     > Add link to presentation
+     > Add link to the issues
+     * Zibi able to run a Sardana instance configured with Beacon
      * Different solutions available coming from  Alba (outdated), Desy (speficid), MaxIV (DS Config)
    
    * Independent/direct acquisition of timerable channels
@@ -71,5 +78,5 @@ Minutes from the meeting held on 2019/02/14.
    * Sardana Documentation Camp 2019?
      * 3 day was to short time, it could be extended and stay at DESY.
 
-## 7. Next meeting on March 21th 14:00. Organized by Gregorz.
+## 7. Next meeting on March 21th 14:00. Organized by Grzegorz.
 
