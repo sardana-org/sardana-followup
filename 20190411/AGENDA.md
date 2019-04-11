@@ -16,3 +16,4 @@ To be held on 2019/04/11 at 14:00
 	* (Jun) Sardana Docs Camp on Tango Meeting
 	* (Oct) Sardana Workshop on ICALEPCS
 6. Any other business?
+  * spock in Qt widget?
