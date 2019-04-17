@@ -23,7 +23,7 @@ Participants:
 * `json2tango` pushes json configuration to Tango DB
 * IDs for existing items are kept, new IDs are assigned by `sardana-dsconfig` script
 * separate tool for generating Excel files from json
-* Ansible module for populating Tango DB currently in development
+* Ansible module for populating Tango DB, Sardana support currently in development
 
 ## 2. Round table
 * SOLARIS
@@ -38,7 +38,7 @@ Participants:
 		- script provided to reproduce the problem
 		- attributes are being read asynchronically
 		- logger consumes large amounts of memory
-		- no memeory problems on Tango 7
+		- no memory problems on Tango 7
 		- hard to reproduce on Tango 9 (4 days with no problem)
 		- depends on PyTango version
 	- problems with prescan snapshot ([#1080](https://github.com/sardana-org/sardana/issues/1080))
