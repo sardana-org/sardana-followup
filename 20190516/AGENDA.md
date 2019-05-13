@@ -5,7 +5,8 @@ To be held on 2019/05/16 at 14:00
 ## Agenda
 
 1. Presentation
-    * ?
+    * Sardana controllers using cookiecutter and the possibilities that it
+      brings to improve the 3rd party repository
 2. Urgent user problems/issues - Round table
 3. Overview of current developments / PR distribution
     * SEP2 ([#775](https://github.com/sardana-org/sardana/pull/775))
