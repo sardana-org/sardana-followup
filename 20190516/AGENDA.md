@@ -38,6 +38,7 @@ To be held on 2019/05/16 at 14:00
         * expconf external changes pop-up
         * newfile macro
         * spock in Qt widget?
+        * Taurus: How to choose the Qt binding (qt4, qt5, pyside...).
         * ...
 4. Sardana Docs Camp on Tango Meeting
     * time and room?
