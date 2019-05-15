@@ -10,6 +10,7 @@ To be held on 2019/05/16 at 14:00
 2. Urgent user problems/issues - Round table
 3. Overview of current developments / PR distribution
     * SEP2 ([#775](https://github.com/sardana-org/sardana/pull/775))
+      * bump major version due to change of meaning of ValueBuffer of 0D?
     * CI for Windows ([#1078](https://github.com/sardana-org/sardana/pull/1078))
     * Hotfix for Measurement Group configuration ([#1090](https://github.com/sardana-org/sardana/pull/1090))
 4. Sardana Workshop on Tango Meeting
@@ -49,3 +50,4 @@ To be held on 2019/05/16 at 14:00
     * redistribute pre-work (investigate specific features that has to be
       evaluated)
 6. Any other business?
+    * Sardana Workshop @ ICALEPCS 2019
