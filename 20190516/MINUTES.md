@@ -24,28 +24,28 @@ Participants:
     * Compatible with GitLab and any Git repository!
     * Very aligned with [SEP16](https://github.com/sardana-org/sardana/pull/726)
 2. Urgent user problems/issues - Round table
-    MaxIV:
-      * After upgrade Tango to 9.3.3 version it was easier to hang 
-      MacroServer with #1023.
-      * When testing #1023 no memory increase was observed as reported by 
-      others.
-      * Bug seems to be fixed. We will close the GH issue.
-    Solaris:
-      * Update Sardana to 2.7. Hit #1023 but after applying patch it works ok.
-      * Very long (800k points) mesh scan to test stability of Sardana failed
-        once due to an attempt to move one of the motors before the previous 
-        movement finished.
-      * IDEA: STANDBY state for experimental channel waiting for trigger
-    DESY:
-      * No complains recently
-      * Macro full description in lsdef PR was created. 
-    ALBA:
-      * 2 beamlines already affected by #1090
-      * how to associate scan acquisition results to the middle of the 
-        integration interval? See macro example example on how to add custom
-        data to the scan entry: #1105.
-      * non-linear translation between pseudo and physical motors is not solved
-        in continuous scans - more details soon in a dedicated issue on GH. 
+    * MaxIV:
+       * After upgrade Tango to 9.3.3 version it was easier to hang 
+         MacroServer with #1023.
+       * When testing #1023 no memory increase was observed as reported by 
+         others.
+       * Bug seems to be fixed. We will close the GH issue.
+    * Solaris:
+       * Update Sardana to 2.7. Hit #1023 but after applying patch it works ok.
+       * Very long (800k points) mesh scan to test stability of Sardana failed
+         once due to an attempt to move one of the motors before the previous 
+         movement finished.
+       * IDEA: STANDBY state for experimental channel waiting for trigger
+    * DESY:
+       * No complains recently
+       * Macro full description in lsdef PR was created. 
+    * ALBA:
+       * 2 beamlines already affected by #1090
+       * how to associate scan acquisition results to the middle of the 
+         integration interval? See macro example example on how to add custom
+         data to the scan entry: #1105.
+       * non-linear translation between pseudo and physical motors is not solved
+         in continuous scans - more details soon in a dedicated issue on GH. 
 3. Overview of current developments / PR distribution
     * SEP2 ([#775](https://github.com/sardana-org/sardana/pull/775))
       * bump major version due to change of meaning of ValueBuffer of 0D - 
