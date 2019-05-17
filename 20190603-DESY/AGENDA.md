@@ -2,8 +2,8 @@
 
 ## Session 1 - Data acquisition
 
-* Possibility to directly acquire an experimental channel (Teresa)
-  (without the need to define a measurement group) (~10 min)
+* Possibility to directly acquire an experimental channel
+  (without the need to define a measurement group) (Teresa) (~10 min)
 
 * SEP18 (Zibi) (~20 min)
     * measurement group preparation
