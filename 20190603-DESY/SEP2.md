@@ -25,6 +25,11 @@ For the moment there is no written documentation (this may change after this wee
 
 ## Single channel acquisition
 
+0. Configure timer for 2d channels:
+   ```
+   Door> twod01.timer='__self'
+   Door> btwod01.timer='__self'
+   ```
 1. Review interface of a channel with and without referencing capability
    ```
    $> taurusform twod01 btwod01
@@ -33,23 +38,23 @@ For the moment there is no written documentation (this may change after this wee
    * Demonstrate two classes definition (inheritance from `Referable` class)
 2. Acquire to return value:
    ```
-   Door> ct twod01 0.1
-   Door> ct btwod01 0.1
+   Door> ct 0.1 twod01
+   Door> ct 0.1 btwod01
    ```
 3. Enable value reference reporting in dummy 2D and acquire:
    ```
    Door> twod01.ValueRefEnabled = True
-   Door> ct twod01 0.1
+   Door> ct 0.1 twod01
    ```
 5. Configure value reference pattern in dummy 2D to return a non HDF5 URI and acquire:
    ```
    Door> twod01.ValueRefPattern = "file:///tmp/test_image.edf"
-   Door> ct twod01 0.1
+   Door> ct 0.1 twod01
    ```
 6. Configure value reference pattern in dummy 2D to return a HDF5 URI and acquire:
    ```
    Door> twod01.ValueRefPattern = "h5file:///tmp/test_image.h5"
-   Door> ct twod01 0.1
+   Door> ct 0.1 twod01
    ```
    ```
    $> ls /tmp/test_*
@@ -57,7 +62,7 @@ For the moment there is no written documentation (this may change after this wee
 7. Configure dummy 2D to save the HDF5 file:
    ```
    Door> twod01.SavingEnabled = True
-   Door> ct twod01 0.1
+   Door> ct 0.1 twod01
    ```
    ```
    $> ls /tmp/test_*
