@@ -100,7 +100,7 @@ For the moment there is no written documentation (this may change after this wee
    Door> ct
    ```
    ```
-   $> ls tmp/foo.h5
+   $> ls /tmp/foo.h5
    ```
    
 ## Scans
