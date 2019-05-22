@@ -32,7 +32,8 @@ For the moment there is no written documentation (this may change after this wee
    ```
 1. Review interface of a channel with and without referencing capability
    ```
-   $> taurusform twod01 btwod01
+   $> taurusdevicepanel twod01 
+   $> taurusdevicepanel btwod01
    ```
    TODO: PoolChannelTaurusValue?
    * Demonstrate two classes definition (inheritance from `Referable` class)
