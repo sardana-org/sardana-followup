@@ -71,8 +71,38 @@ For the moment there is no written documentation (this may change after this wee
    
 ## Measurement group acquisition
 
-TODO
-
+0. Define measurementgroup with two channels using expconf:
+   a BasicDummyTwoD channel, and a DummyTwoD channel 
+   ```
+   btwod01
+   twod01
+   ```
+1. Acquire to return values:
+   ```
+   Door> ct
+   ```
+2. Enable Reference from expconf for the channel supporting referencing (twod01)  
+   Set 'Ref Enabled' to True for twod01 channel and acquire:
+   ```
+   Door> ct
+   ```
+4. BasicDummyTwoD element does not support referencing; value is returned even if referencing is enabled  
+   Set 'Ref Enabled' to True for btwod01 channel and acquire:
+   ```
+   Door> ct
+   ```
+5. Enable saving for twod01:
+   ```
+   Door> twod01.SavingEnabled = True
+   ```
+6. For twod01: Set 'Ref Pattern' to ```h5file:///tmp/foo.h5::bar``` and acquire:
+   ```
+   Door> ct
+   ```
+   ```
+   $> ls tmp/foo.h5
+   ```
+   
 ## Scans
 
 TODO
