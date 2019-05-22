@@ -115,6 +115,13 @@ TODO
 
 TODO
 
+## Virtual Datasets (VDS) in SEP2
+
+Virtual Datasets (VDS) feature requires version 1.10 or higher for HDF5 C library, and version 2.9 or higher for h5py python library.
+
+
+In SEP2, when value references point to a dataset of another HDF5 file, Sardana uses VDS if available. In this case, each single 2D dataset will be stored in a different h5 file, and the VDS feature will be used to visualize all datasets in a single h5 file.
+
 ## What else could be done and was out of SEP2 scope
 
 * abstraction of external image processing (ROI, binning, etc)
