@@ -103,24 +103,49 @@ For the moment there is no written documentation (this may change after this wee
    $> ls /tmp/foo.h5
    ```
    
-## Scans
 
-TODO
-
-### Step scan
-
-TODO
-
-### Continous scan
-
-TODO
-
-## Virtual Datasets (VDS) in SEP2
+## Scans: Virtual Datasets (VDS) in SEP2
 
 Virtual Datasets (VDS) feature requires version 1.10 or higher for HDF5 C library, and version 2.9 or higher for h5py python library.
 
 
 In SEP2, when value references point to a dataset of another HDF5 file, Sardana uses VDS if available. In this case, each single 2D dataset will be stored in a different h5 file, and the VDS feature will be used to visualize all datasets in a single h5 file.
+
+### Step scan
+
+0. Create folder to store data:
+   ```
+   mkdir -p /tmp/vds
+   ```
+
+1. Set a ScanDir and a ScanFile
+   ```
+   Door> senv ScanDir /tmp/vds/
+   Door> senv ScanFile vds.h5  
+   ```
+   
+2. From expconf: 
+   - Create/choose a measurement group containing a 2D channel
+   - Set the VDS shape: It must be the same as the data source shape
+   ```
+   [1024, 1024]
+   ```
+   - Set a Ref Pattern (optional):
+   ```
+   h5file:///tmp/vds/sourcefile_{index}.h5
+   ```
+3. Perform the scan:
+   ```
+   ascan mot65 0 2 3 0.5
+   ```
+
+Source h5 files and main VDS h5 files are stored. If the references could not be correctly resolved, the main file will still contain the references to the source files as strings, instead of allowing the data visualization.
+
+
+### Continous scan
+
+TODO
+
 
 ## What else could be done and was out of SEP2 scope
 
