@@ -18,7 +18,7 @@
     * value reference configuration (pattern and enable/disable)
     * VDS in HDF5
 
-## Cofee Break (~30 min)
+## Coffee Break (~30 min)
 
 ## Session 2 - Miscellaneous topics
 
@@ -42,3 +42,7 @@
   * Helpers and Validators?
 
 * Brainstorming about the project roadmap (~1 h)
+  * Python 3
+  * SEP16 (Plugin Register)
+  * SEP17 (Ongoing acquisition formalization and implementation)
+  * ...
