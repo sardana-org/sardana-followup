@@ -126,14 +126,13 @@ In SEP2, when value references point to a dataset of another HDF5 file, Sardana 
    
 2. From expconf: 
    - Create/choose a measurement group containing a 2D channel
-   - Set the VDS shape: It must be the same as the data source shape
-   ```
-   [1024, 1024]
-   ```
-   - Set a Ref Pattern (optional):
-   ```
-   h5file:///tmp/vds/sourcefile_{index}.h5
-   ```
+   - Set the VDS shape: It must be the same as the data source shape (mandatory):  
+   ```[1024, 1024]```
+   - Set the Data Type (mandatory):  
+     eg: ```float64```
+   - Set a Ref Pattern (optional: a default value exists):  
+   ```h5file:///tmp/vds/sourcefile_{index}.h5```
+
 3. Perform the scan:
    ```
    ascan mot65 0 2 3 0.5
