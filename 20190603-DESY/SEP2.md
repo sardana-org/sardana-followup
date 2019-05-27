@@ -81,21 +81,17 @@ For the moment there is no written documentation (this may change after this wee
    ```
    Door> ct
    ```
-2. Enable Reference from expconf for the channel supporting referencing (twod01)  
-   Set 'Ref Enabled' to True for twod01 channel and acquire:
+2. Enable Reference from expconf for both channels.  
+   Set 'Ref Enabled' to True for btwod01 and twod01 channels and acquire:
+   (BasicDummyTwoD element does not support referencing; value is returned even if referencing is enabled)
    ```
    Door> ct
    ```
-4. BasicDummyTwoD element does not support referencing; value is returned even if referencing is enabled  
-   Set 'Ref Enabled' to True for btwod01 channel and acquire:
-   ```
-   Door> ct
-   ```
-5. Enable saving for twod01:
+4. Enable saving for twod01:
    ```
    Door> twod01.SavingEnabled = True
    ```
-6. For twod01: Set 'Ref Pattern' to ```h5file:///tmp/foo.h5::bar``` and acquire:
+5. For twod01: Set 'Ref Pattern' to ```h5file:///tmp/foo.h5::bar``` and acquire:
    ```
    Door> ct
    ```
