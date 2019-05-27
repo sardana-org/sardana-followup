@@ -91,7 +91,7 @@ For the moment there is no written documentation (this may change after this wee
    ```
    Door> twod01.SavingEnabled = True
    ```
-5. For twod01: Set 'Ref Pattern' to ```h5file:///tmp/foo.h5::bar``` and acquire:
+5. For twod01: From expconf set 'Ref Pattern' to ```h5file:///tmp/foo.h5::bar``` and acquire:
    ```
    Door> ct
    ```
