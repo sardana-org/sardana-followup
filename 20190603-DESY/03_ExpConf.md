@@ -17,6 +17,8 @@ groups of parameters organized in tabs:
 
 More in the official [doc](https://sardana-controls.org/users/taurus/experimentconfiguration.html?highlight=expconf)
 
+Note: if there is enough time I would explain (or at least list) all the expconf features
+Note: I would also metion the PR with the macros providing the same funtionality as expconf.
 
 * [expconf](https://user-images.githubusercontent.com/6735649/52115672-7de47580-260f-11e9-9a62-baab546e5dec.png) picture
 
@@ -24,18 +26,18 @@ More in the official [doc](https://sardana-controls.org/users/taurus/experimentc
 ## Demo
 
 ```
-taurusgui macrogui
+$> taurusgui macrogui
 ```
 
 In spock, type:
 
 ```
-expconf
-senv ActiveMntGrp meas3
+Door> expconf
+Door> senv ActiveMntGrp meas3
 
 ```
 
-```
+```python
 import time
 from sardana.macroserver.macro import *
 
@@ -55,6 +57,8 @@ def changeMeas(self, mntgrp):
 
 ## Several improvements:
 
+Note: these I would just list the issue numbers in the parenthes when you mention the original issue #882.
+
 * Add auto-update action [#1028](https://github.com/sardana-org/sardana/pull/1028),
 * Modify popup messages [#1094](https://github.com/sardana-org/sardana/pull/1094),
 * Show external changes when the meas is deleted [#1099](https://github.com/sardana-org/sardana/pull/1099)
@@ -63,7 +67,9 @@ def changeMeas(self, mntgrp):
 ## Future works:
 
 * Feature: propagate context (env. var.)
+  Note: I would give an exmaple of how it should work e.g. `senv madscan.ActiveMntGrp mg_madscan` as an alternative to the above macro `chamgeMeas`.
 * ExpConf reports pop-ups after stopping the Pool [#958](https://github.com/sardana-org/sardana/issues/958)
 * ExpConf reports unnecessary measurement groups changes popup [#1025](https://github.com/sardana-org/sardana/issues/1025)
 * Show "configration change on the server" pop-up only when expconf in edit mode [#1046](https://github.com/sardana-org/sardana/issues/1046)
+  Note: this I would put it as the first one cause it will fix most of the complains.
 * Meas is not removed if applying local configuration from expconf [#1092](https://github.com/sardana-org/sardana/issues/1092)
