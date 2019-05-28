@@ -134,7 +134,7 @@ In SEP2, when value references point to a dataset of another HDF5 file, Sardana 
    ascan mot65 0 2 3 0.5
    ```
 
-Source h5 files and main VDS h5 files are stored. If the references could not be correctly resolved, the main file will still contain the references to the source files as strings, instead of allowing the data visualization.
+Source h5 files and main VDS h5 files are stored. If the references could not be correctly resolved at VDS file creation time or some other error occurred, the main file will still contain the references to the source files as strings, instead of allowing the data visualization.
 
 
 ### Continous scan
