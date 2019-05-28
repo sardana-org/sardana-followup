@@ -2,10 +2,11 @@
 # Macro optional parameters
 
 Sardana enhancement (Feb16) [#245](https://github.com/sardana-org/sardana/issues/285)
+Note: I think that the implementation is #876 so it is one of the last milestones.
 
 Goal:
 Add some new features related to the macro parameters in order to get
-more flexibility in providing the parameters.
+more flexibility in providing the parameter values.
 
 Requirements:
 
@@ -14,11 +15,11 @@ Requirements:
  defined by the user
 * define parameters as optional and interactive, so that if they are
 not provided they will be interactively asked.
-* define parameters as optional and with a default value that will be
+* define parameters as optional and with a _default value_ that will be
 variable (for example readout from some tango attribute).
 
 
-Implemented by **rhomsputon** (Sep18)
+Implemented by **rhomspuron** (Sep18)
 
 ## What is a Sardana Macro?
 
@@ -64,3 +65,8 @@ class macro1(Macro):
                                                 defaultboolvalue,
                                                 opboolvalue))
 ```
+
+Note: we could add examples of:
+* print a custom message and abort
+* interactive macro, ask for value
+* get a value e.g. read some attribute
