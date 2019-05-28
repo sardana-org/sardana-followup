@@ -133,13 +133,18 @@ In SEP2, when value references point to a dataset of another HDF5 file, Sardana 
    ```
    ascan mot65 0 2 3 0.5
    ```
+4. The resulting files are stored in /tmp/vds. The file 'vds.h5' contains the virtual dataset.
 
 Source h5 files and main VDS h5 files are stored. If the references could not be correctly resolved at VDS file creation time or some other error occurred, the main file will still contain the references to the source files as strings, instead of allowing the data visualization.
 
 
 ### Continous scan
 
-TODO
+0. With the same settings as the ones used for the step scan, perform a continuous scan:
+   ```
+   ascanct mot01 0 10 4 0.2 0.2
+   ```
+1. The resulting files are stored in /tmp/vds. The file 'vds.h5' contains the virtual dataset.
 
 
 ## What else could be done and was out of SEP2 scope
