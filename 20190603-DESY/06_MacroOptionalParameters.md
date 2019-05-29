@@ -1,8 +1,8 @@
 
 # Macro optional parameters
 
-Sardana enhancement (Feb16) [#245](https://github.com/sardana-org/sardana/issues/285)
-Note: I think that the implementation is #876 so it is one of the last milestones.
+Sardana enhancement (Feb16)  Issue [#245](https://github.com/sardana-org/sardana/issues/285)
+PR [#876](https://github.com/sardana-org/sardana/issues/876)
 
 Goal:
 Add some new features related to the macro parameters in order to get
@@ -64,9 +64,15 @@ class macro1(Macro):
         self.output('values: {}, {}, {}'.format(boolvalue,
                                                 defaultboolvalue,
                                                 opboolvalue))
+        #TODO
+        if opboolvalue is None:
+            # print a custom message and abort
+            self.debug('opboolvalue is None: aborting...')
+            self.abort()
+            # or ask for a value; macro have to be decorated: @macro(interactive=True)
+            opboolvalue = self.input("Input a bool value")
+            # or init with a env. var or read some attr.
+            opboolvalue = taurus.Attribute('sys/tg_test/1/float_scalar')
+            opboolvalue = self.getEnv('OpBool')
 ```
 
-Note: we could add examples of:
-* print a custom message and abort
-* interactive macro, ask for value
-* get a value e.g. read some attribute
