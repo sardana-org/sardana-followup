@@ -50,10 +50,12 @@ For Sardana the value of the < DefaultValue > has different meanings:
 * [Optional](https://sardana-controls.org/devel/howto_macros/macros_general.html#optional-parameters)
 
 
-```
-from sardana.macroserver.macro import *
+```python
+import taurus
+from sardana.macroserver.macro import Macro, Type, Optional
 
-class macro1(Macro):
+
+class macroOP1(Macro):
     param_def = [
     ['boolvalue', Type.Boolean, None, 'a bool value'],
     ['defaultboolvalue', Type.Boolean, True, 'a bool value (default)'],
