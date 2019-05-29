@@ -38,8 +38,6 @@
 * Spock in Qt widget (Tim Schoof) (~10 min)
 
 * Taurus Best Practices (Carlos F.) (~15 min)
-  * How to choose the Qt binding (qt4, qt5, pyside)
-  * Helpers and Validators?
 
 * Brainstorming about the project roadmap (~1 h)
   * Python 3
