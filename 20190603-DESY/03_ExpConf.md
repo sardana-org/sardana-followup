@@ -58,4 +58,4 @@ def changeMeas(self, mntgrp):
 * ExpConf reports unnecessary measurement groups changes popup [#1025](https://github.com/sardana-org/sardana/issues/1025)
 * **Show "configration change on the server" pop-up only when expconf in edit mode [#1046](https://github.com/sardana-org/sardana/issues/1046)**
 * Meas is not removed if applying local configuration from expconf [#1092](https://github.com/sardana-org/sardana/issues/1092)
-* **Feature: propagate context (env. var.) e.g. `senv madscan.ActiveMntGrp mg_madscan` as an alternative to the above macro `chamgeMeas`.**
+* **Feature: propagate context (env. var.) e.g. `senv madscan.ActiveMntGrp mg_madscan` as an alternative to the above macro `changeMeas`.**
