@@ -21,15 +21,29 @@ Afterwards measurement group requires another preparation.
 integration time or synchronization) will be supported as backwards
 compatibility.
 
-Measurement group interface:
+## Measurement group interface:
 
 ```
 $> taurusdevicepanel mntgrp01
 ```
 
-Taurus extension API:
+### Sardana-Taurus extension API:
 
-```python 
+* Enrich Taurus Device objects to facilitate Sardana elements manipulation e.g. state transition in motion and acquisition
+* Don't use `tango.DeviceProxy`, use Sardana-Taurus extensions!
+* Available in macros development: macro parameters, `Macro.getObj`, `Macro.getMeasurementGroup`, etc.
+* Can be used in any python application, just register extension before getting Taurus Device:
+  ```python
+  from sardana.taurus.core.tango.sardana import registerExtensions()
+  registerExtensions()
+  ```
+* Qt Sardana-Taurus extensions are also available for programming Qt applications - Tango events are mapped to Qt signals.
+
+### Sardana-Taurus extension to MeasurementGroup
+
+The following snippet is not a functional code and is just a partial API for demonstration purposes:
+
+```python
 class MeasurementGroup:
 
 [...]
@@ -112,7 +126,6 @@ class MeasurementGroup:
 [...]
 ```
 
-
 ## Sardana synchronization modes:
 
 ![sardana_synchronization](sardana_synchronization.png)
@@ -140,10 +153,9 @@ def LoadOne(self, axis, value, repetitions, latency):
 **Important**: Difference between measurement group number of starts and
 experimental channel number of starts:
 
-Measurement group number of starts means how many times a measurement group
+* Measurement group number of starts means how many times a measurement group
 will be started by a Start command.
-
-Experimental channel number of starts means how many times an experimental
+* Experimental channel number of starts means how many times an experimental
 channel controller will be starter by `StartOne` method.
 
 For example, in a continuous scan, the measurement group is started only once,
@@ -164,9 +176,10 @@ acquisition formalization and implementation
   * ongoing acquisition - see details in SEP17
 * More information about the acquisition status apart from States: On, 
 Moving, Alarm.
-    * Standby value when waiting in armed state for synchronization event?
-    * A dedicated attribute like acq_status in Lima?
+    * No coherence between Moving state in hardware and software acquisition
+    * No distinction between waiting for trigger and acquiring
+        * Standby value when waiting in armed state for synchronization event?
+        * A dedicated attribute like acq_status in Lima?
 * Bring measurement group elements to safe state when something goes wrong -
- not all the cases are supported.
+  not all the cases are supported.
 * How to solve long prepare and start, Tango 3 s. timeout?
-* Parallel start of experimental channels but timer/monitor.
