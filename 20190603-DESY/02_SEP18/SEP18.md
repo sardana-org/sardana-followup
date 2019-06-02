@@ -182,6 +182,5 @@ Moving, Alarm.
         * A dedicated attribute like acq_status in Lima?
 * Bring measurement group elements to safe state when something goes wrong -
   not all the cases are supported.
-* How to solve long prepare and start, Tango 3 s. timeout?
-* SEP6 and SEP18 were incrementally enriching the API, there is roon for the improvement e.g. 
-  repetitions and nb_starts clearly compete for the same role, should we refactor it now?
+* How to solve long prepare and start, Tango 3 s. timeout? Is it a big problem currently?
+* SEP6 and SEP18 were incrementally enriching the API of experimental channel controllers, there is room for the improvement  e.g. `repetitions` and `nb_starts` clearly compete for the same role, should we refactor it now?
