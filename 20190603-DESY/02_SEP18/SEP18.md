@@ -34,7 +34,7 @@ $> taurusdevicepanel mntgrp01
 * Available in macros development: macro parameters, `Macro.getObj`, `Macro.getMeasurementGroup`, etc.
 * Can be used in any python application, just register extension before getting Taurus Device:
   ```python
-  from sardana.taurus.core.tango.sardana import registerExtensions()
+  from sardana.taurus.core.tango.sardana import registerExtensions
   registerExtensions()
   ```
 * Qt Sardana-Taurus extensions are also available for programming Qt applications - Tango events are mapped to Qt signals.
@@ -183,3 +183,5 @@ Moving, Alarm.
 * Bring measurement group elements to safe state when something goes wrong -
   not all the cases are supported.
 * How to solve long prepare and start, Tango 3 s. timeout?
+* SEP6 and SEP18 were incrementally enriching the API, there is roon for the improvement e.g. 
+  repetitions and nb_starts clearly compete for the same role, should we refactor it now?
