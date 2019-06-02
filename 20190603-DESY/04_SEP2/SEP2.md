@@ -162,6 +162,4 @@ Note: Value referencing works with step and continuous scans and any type of syn
 
 * Reporting of multiple frames in one URI (slicing) `h5file:///tmp/foo::bar[0:10]`
 * Abstraction of external image processing (ROI, binning, etc)
-* Controller plugin should be able to report dtype and shape
-* Image shape and datatype are retrieved from the controller (alternatively, they must be indicated in expconf)
-* Image shape must be the same as the data source shape 
+* Controller (plugin) could report dtype and shape, now it reports it on initializtion (dtype and max shape) 
