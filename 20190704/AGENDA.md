@@ -3,13 +3,13 @@
 To be held on 2019/07/04 at 14:00
 
 ## Agenda
-
-1. Presentation - any idea?
       
-2. Urgent user problems/issues - Round table
-3. Overview of current developments / PR distribution
+1. Urgent user problems/issues - Round table
+2. Overview of current developments / PR distribution
     * SEP16 ([#726](https://github.com/sardana-org/sardana/pull/726))
+      - Discussion coockiecutter template
     * Migration to python3
     * 'General condition' feature
-4. Jul19 release summary
-5. Any other business?
+3. Jul19 release summary
+4. CALEPCS2019 Sardana workshop
+5. Discussion about Questionnaire (#24)
