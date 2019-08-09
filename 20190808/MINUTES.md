@@ -2,6 +2,8 @@
 
 Held on 2019/08/08 at 14:00
 
+Participants: ALBA - Zbigniew Reszela and Marc Rosanes, DESY - Teresa Núñez, MAXIV - Antonio Milán and Juliano Murari, SOLARIS - Grzegorz Kowalski
+
 ## Actions
 
 - [ ] MAX IV to add the EM# (a.k.a. albaem2) sardana controller and macros repository to the catalog.
