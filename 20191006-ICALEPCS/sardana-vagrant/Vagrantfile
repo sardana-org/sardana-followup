@@ -1,0 +1,14 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/buster64"
+  config.vm.provider "virtualbox" do |vb|
+    # Display the VirtualBox GUI when booting the machine
+    vb.gui = true
+    # Customize the amount of memory on the VM
+    vb.memory = "2048"
+    # Give easy name (without timestamp) for the VM
+    vb.name = "sardana-icalepcs2019"
+  end
+  config.vm.provision "shell", path: "provision.sh"
+  config.vm.synced_folder "/home/zreszela/workspace/taurus", "/taurus"
+  config.vm.synced_folder "/home/zreszela/workspace/sardana", "/sardana"
+end
