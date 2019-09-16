@@ -9,6 +9,6 @@ Vagrant.configure("2") do |config|
     vb.name = "sardana-icalepcs2019"
   end
   config.vm.provision "shell", path: "provision.sh"
-  config.vm.synced_folder "/home/zreszela/workspace/taurus", "/taurus"
-  config.vm.synced_folder "/home/zreszela/workspace/sardana", "/sardana"
+#  config.vm.synced_folder "/home/zreszela/workspace/taurus", "/taurus"
+#  config.vm.synced_folder "/home/zreszela/workspace/sardana", "/sardana"
 end
