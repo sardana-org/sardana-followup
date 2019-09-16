@@ -6,7 +6,7 @@
 * Introduction to Sardana Suite
 
 ## Sardana from scratch (9:00 - 9:15)
-* Start Sardana server and CLI
+* Start Sardana server and Spock CLI
 * Create and explain the simulation environment
 
 ## GUI with Taurus (9:15 - 10:00)
@@ -15,13 +15,12 @@
 
 ## Coffee break (10:00 - 10:30)
 
-## Scans and Data Management (10:30 - 11:00)
+## Macros: Scans and Data Management (10:30 - 11:00)
 * Generic Scan Framework
 * Data management and Recorders
 
-## Macros (11:00 - 12:00)
+## How to write macros (11:00 - 12:00)
 * Macro features
-* How to write macros - practical
 
 ## Lunch break (12:00 - 13:30)
 
