@@ -3,7 +3,7 @@
 During the workshop we will use
 the [sardana-training](https://github.com/sardana-org/sardana-training)
 materials (_users_ part) on
-the [sardana VM](https://filesender.rediris.es/?s=download&token=b1ef4d3b-b77f-9b62-8e13-909b0f403d39) 
+the [sardana VM](https://filesender.rediris.es/?s=download&token=e8ad265d-fd40-d9ee-aa87-fb5900bfbe41) 
 (VirtualBox OVA).
 
 ## Introduction (8:30 - 9:00)
