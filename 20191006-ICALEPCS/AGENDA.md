@@ -1,9 +1,10 @@
 # Agenda
 
-During the workshop we will use
-the [sardana-training](https://github.com/sardana-org/sardana-training)
-materials (_users_ part) on
-the [sardana VM](https://filesender.rediris.es/?s=download&token=e8ad265d-fd40-d9ee-aa87-fb5900bfbe41) 
+During the workshop we will use:
+* [sardana-training materials](https://github.com/sardana-org/sardana-training)
+(_users_ part)
+* [sardana-training slides](https://sardana-org.github.io/sardana-training/#/)
+* [sardana VM](https://filesender.rediris.es/?s=download&token=e8ad265d-fd40-d9ee-aa87-fb5900bfbe41) 
 (VirtualBox OVA).
 
 ## Introduction (8:30 - 9:00)
