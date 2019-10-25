@@ -23,12 +23,12 @@ Participants: ALBA - Zbigniew Reszela and Marc Rosanes, DESY - Teresa Núñez, M
        * Pool hanging when using motor for Kepco Power Supply, could hang when parsing the power supply
        * [ ] Add information on how to access debug information of libtango9-dbgsym (seems like some information is not accessible)
    * DESY
-       * Ctrl+C problem (happens most of the times with Lamda and Pilatus) maybe related to [#978](https://github.com/sardana-org/sardana/issues/978) (priority)
+       * Ctrl+C problem (happens most of the times with Lambda and Pilatus) maybe related to [#978](https://github.com/sardana-org/sardana/issues/978) (priority)
 2. Review pending points from the previous meeting
    - it is a good idea to maintain this point in the agenda
    - [ ] Review pending points from the previous meetings and add it to this section for the next one
    
-   Points pendinf from the previous meeting
+   Points pending from the previous meeting
    - [ ] Users can break Sardana by messing with configuration in Tango DB, diagnostic script should be created to check that
    - [ ] Problem with CT acquisition, the values are shifted, problem solved by checking the state in ReadOne. Problem reproducible only on one beamline, but the issue should be created anyway
         - For the moment was considered as high priority only for ALBA.
