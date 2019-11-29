@@ -126,4 +126,4 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Juliano Mu
      A dedicated meeting will be held on Thursday, the 12th December.
      
 5. AOB
-   - No discussed about date for next meeting
+   - Proposed date for the next meeting is 16.01.2020 at 14:00. It will be organized by Grzegorz.
