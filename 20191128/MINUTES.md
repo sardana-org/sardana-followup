@@ -8,17 +8,17 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Juliano Mu
    * SOLARIS
        *  They have problems with the pseudo motors of the monochromator, because they
           do not always reach the desired position during the scans.
-	  The problem could be caused by the hardware (Icepad). Zibi suggest that it
-	  could be related to the emergence break in sardana: if one motor in the motor
-	  group goes to ALARM all the motors in the group will be stopped. In Icepad
+	  The problem could be caused by the hardware (IcePAP). Zibi suggest that it
+	  could be related to the emergency break in sardana: if one motor in the motor
+	  group goes to ALARM all the motors in the group will be stopped. In IcePAP
 	  there is also a hardware protection behaving like this. They will check if
-	  this could be the reason (either in Sardana or in the icepad itself).
+	  this could be the reason (either in Sardana or in the icePAP itself).
 	  They had some similar problem some years ago but with all the motors,
-          now is only with PseudoMotors, but for sardana and icepad is very
+          now is only with PseudoMotors, but for sardana and icePAP is very
           similar moving a motor or a pseudo motor, so it could be the same problem.
    * ALBA
        *  They continue working on the migration to python3, they were
-          stack in one beamline, the reason was an issue in pytango or tango
+          stuck in one beamline, the reason was an issue in pytango or tango
 	  (PyTango issue #315 https://github.com/tango-controls/pytango/issues/315).
 	  The problem is produced if attribute or device proxies are created or
 	  destroyed in several devices in parallel, this increases the number of
@@ -57,7 +57,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Juliano Mu
 	 work like this, but Zibi suggested to use hardware synchronization if
 	 possible, so they don't have to change the synchronization in the MG.
 	 Hardware synchronitazion can be used not only for continuous scans but
-	 also for step ones (in Alba they synchronize step scans with the icepad,
+	 also for step ones (in Alba they synchronize step scans with the icePAP,
 	 the panda box can probably also do it).
 
        * Migration to python3 has not started.
