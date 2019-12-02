@@ -11,16 +11,16 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Juliano Mu
 	  The problem could be caused by the hardware (IcePAP). Zibi suggest that it
 	  could be related to the emergency break in sardana: if one motor in the motor
 	  group goes to ALARM all the motors in the group will be stopped. In IcePAP
-	  there is also a hardware protection behaving like this. They will check if
-	  this could be the reason (either in Sardana or in the icePAP itself).
+	  there is also a hardware protection behaving like this.	  
 	  They had some similar problem some years ago but with all the motors,
           now is only with PseudoMotors, but for sardana and icePAP is very
-          similar moving a motor or a pseudo motor, so it could be the same problem.
+          similar moving a motor group or a pseudo motor, so it could be the same problem.
+      * [ ] They will check if the above suggestions (either in Sardana or in the icePAP itself) explain the problem.
    * ALBA
        *  They continue working on the migration to python3, they were
           stuck in one beamline, the reason was an issue in pytango or tango
 	  (PyTango issue #315 https://github.com/tango-controls/pytango/issues/315).
-	  The problem is produced if attribute or device proxies are created or
+	  The problem is reproduced if attribute or device proxies are created or
 	  destroyed in several devices in parallel, this increases the number of
 	  threads in the Server and hangs for ever. They changed the controller
 	  affected by this issue and finalize the migration of this beamline
@@ -48,15 +48,16 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Juliano Mu
        * In relative moves the software limits were not checked properly, the hardware limits
          or the software limits in absolute moves are checked properly and the motors are stopped.
 	 The problem arised with physical motors and it was reproducible.
-         Juliano will check, if this issue is solved.
+       * [ ]  Juliano will check, if this issue is solved.
 
        * They have tested the trigger column in expconf for configuring the MG, like
-         this they can keep the same MG and the different groups only need
+         this they can keep the same MG and the different macros/scans only need
 	 to change the synchronization in the trigger column (they are working
-	 with movements done in the pmac and using the panda box). They can
+	 with movements done in the pmac and using the panda box) - currently this is
+	 solved with general hooks. They can
 	 work like this, but Zibi suggested to use hardware synchronization if
 	 possible, so they don't have to change the synchronization in the MG.
-	 Hardware synchronitazion can be used not only for continuous scans but
+	 Hardware synchronization can be used not only for continuous scans but
 	 also for step ones (in Alba they synchronize step scans with the icePAP,
 	 the panda box can probably also do it).
 
@@ -99,7 +100,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Juliano Mu
       Antonio has started to put some of the MaXIV plugins in the catalog but now this is stopped.
       They also had some conflict about what to put in the catalog, each beamline makes
       the things a bit different. They will try to get a common way, also Alba is deciding how to standarized this.
-      We agree in accepting SEP16, Zibi will send some e-mail about this.
+    * [ ] We agree in accepting SEP16, Zibi will send some e-mail about this.
 
     * MultiDeviceTestContext ([tango-controls/pytango#314](https://github.com/tango-controls/pytango/pull/314))
       The whole functionality is in the PR for PyTango. Only tests are missing, once the PR is accepted it
@@ -114,12 +115,12 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Juliano Mu
 	method of the tango classes and it will be written to hardware. It would
    	be like a memorized attribute written to tango. The problem could be if he has in mind attributes
 	that are not memorized. Juliano thinks that this is not the case,  that he was only thinking in
-	creating new elements in the Pool. Zibi will talk to Henrik to clarify the use cases
-        that he has in mind.
+	creating new elements in the Pool.
+	   * [ ] Zibi will talk to Henrik to clarify the use cases that he has in mind.
 
 4. Discussion about Questionnaire (#24)
      A lot of work was done on that. The questions are mainly focused to the users.
-     The scan part is missed.
+     The scan part is missing.
      Gregorz will modify the current version of the questionnaire according to what
      was discussed today.
      The questionarie will be done in programmatic way, Zibi will take care of that.
