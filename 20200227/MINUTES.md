@@ -46,7 +46,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Juliano Mu
       
 2. Review pending points from the previous meeting
     - [ ] (Software limits not checked properly) Should we couple `steps_per_unit` with the limits?
-        - Remove it from the penidng points and tread in the backlog.
+        - Remove it from the pending points and tread in the backlog.
     - [ ] What about SOLARIS involvement in the Sardana project?
         - Grzegorz was not at the meeting hence no update.
     - From previous meeting:
