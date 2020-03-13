@@ -1,4 +1,4 @@
-# Sardana Follow-up Meeting - 2020/01/16
+# Sardana Follow-up Meeting - 2020/02/27
 
 To be held on 2020/02/27 at 14:00
 
