@@ -17,12 +17,15 @@ To be held on 2020/03/26 at 14:00
         - [ ] Configure CI on buster (problems with test suite on Python 3.6): status update
 3. Overview of current developments / PR distribution
         - [ ] 2nd Ctrl+C abort the macro: status update
+	- [ ] Zibi will review the last debug information from Thorsten
+	- [ ] Juliano will share the code of the proxy/mirror controller that they use
     * How Tango issues affects Sardana?
         * https://github.com/tango-controls/pytango/issues/292 and https://github.com/tango-controls/cppTango/issues/686
         * https://github.com/tango-controls/pytango/issues/307 and https://github.com/sardana-org/sardana/pull/1298
     * Several PMTV and macroexecutor/sequencer improvement PRs
     * showscan online improvements
-    * Jan20 release
+    * Jan20 release:
+        * sardana-org/sardana#1315
     * ...
 4. Discussion about Questionnaire ([#24](https://github.com/sardana-org/sardana-followup/issues/24))
 5. AOB
