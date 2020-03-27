@@ -75,23 +75,25 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Frei
 	     Aureo will provide the code after the meeting.
     * How Tango issues affects Sardana?
         * https://github.com/tango-controls/pytango/issues/292 and https://github.com/tango-controls/cppTango/issues/686
-	 Zibi advanced in the workarounds in tango for that. The bug affects the 4th beamline migrating
+	 Zibi advanced in the workarounds in Taurus for that. The bug affects the 4th beamline migrating
 	 to python3. It would be imposible to migrate it to python3 if this is not solved.
-	 Three workarounds are evaluated (PRs to Taurus). One seems to solve the problem.
-	 cpptango has a PR to solve the issue and will be evaluated.
+	 Three workarounds, proposed as WIP PR to Taurus, are evaluated. One seems to solve the problem.
+	 cpptango has alspo a PR to solve the issue and will be evaluated.
 	 Could be that the PRs for Taurus are not needed any more.
         * https://github.com/tango-controls/pytango/issues/307 and https://github.com/sardana-org/sardana/pull/1298
 	 Jairo is working on this, it is not easy to solve in pytango, probably it has to be done in cpptango and
-	 see how logs are constructed.
+	 see how locks are constructed.
     * Several PMTV and macroexecutor/sequencer improvement PRs
         No update
     * showscan online improvements
-        There are two PRs related. One changing the way the trends are updated (it was done periodically and now is based
-	on events, this PR is integrated. In other one Tiago works in data inspection for showscan online (work in progress).
+        There are two PRs related. One changing the way the trends are updated (it was based on event and now is
+	done periodically), this PR is integrated. In other one Tiago works in data inspection for showscan
+	online (work in progress).
     * Jan20 release:
 	Some PRs have been integrated but there are still 8 PRs to be reviewed and merged. They have been assigned.
     * sardana-org/sardana#1315
-         A decision is postponed and will be done in the PR
+        We will all think about it and reply in the issue. PR will be created afterwards when we agree on
+	what to remove and what will stay.
         
 4. Discussion about Questionnaire ([#24](https://github.com/sardana-org/sardana-followup/issues/24))
     The questionnaire was sent and filled. We have checked our answers to see if the results can be
