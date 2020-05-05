@@ -1,4 +1,4 @@
-# Sardana Follow-up Meeting - 2020/05/05
+# Sardana Follow-up Meeting - 2020/05/07
 
 To be held on 2020/05/07 at 14:00
 
