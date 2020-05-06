@@ -28,4 +28,5 @@ To be held on 2020/05/07 at 14:00
         * sardana-org/sardana#1315
     * ...
 4. Discussion about Questionnaire ([#24](https://github.com/sardana-org/sardana-followup/issues/24))
-5. AOB
+5. Introduction of SEP19 ([#1328](https://github.com/sardana-org/sardana/pull/1328))
+6. AOB
