@@ -2,36 +2,38 @@
 
 Held on 2020/05/07 at 14:00
 
-Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Freitas
+Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAX IV - Aureo Freitas
 
 1. Urgent user problems/issues - Round table
 * Alba:
-  * sardana migration on python 3, problems was fixed but still have some more issue on pytango #315
-  * 3 beamlines was migrated and they are migrating the n4
-  * one more issue was discovery: strange results in scans comparing the data prescan snap shot. They are not maching.. There is the possibility that the missup the snapshot (sardana issue #1321) maybe many attr in  the snapshot
+  * Sardana migration on python 3, problems was fixed but still have some more issue on pytango #315.
+  * 3 beamlines was migrated and they are migrating the 4th.
+  * One more issue was discovery: strange results in scans comparing the data prescan snap shot. They are not maching.. There is the possibility that the missup the snapshot (sardana issue #1321) maybe many attr in  the snapshot.
   * Thiago propose to eliminate the hooks on abort from macro API (sardana issue #1325). Need to keep on_abort and on_stop on macro. Alba propose that they will provide examples with the new way to program it. MAX IV and DESY need to test and review the new implementation.
-  * Sardana 2.8.5 released. Add compatibility with Taurus 3
-  * Proposal from Thiago using pandas for scan data. #1095
-  * From new contributed run macros in paralel. Solution was 2 doors #1323 
-  * Document RecordData attribute #1329
+  * Sardana 2.8.5 released. Add compatibility with Taurus 3.
+  * Proposal from Thiago using pandas for scan data. #1095.
+  * From new contributed: run macros in paralel. Solution was 2 doors #1323.
+  * Document RecordData attribute #1329.
 
 * DESY:
-  * Startup process. No issues expecificlly with sardana. Start to change everything to python 3.
+  * Startup process. 
+  * No issues expecificlly with sardana. 
+  * Start to change everything to python 3.
 
 
 * MAX IV:
-  * Continuous scan for one beamline
-  * SEP 6 Trigger Gate ctrl for Delay generator
-  * meshscan c
+  * Continuous scan for one beamline.
+  * SEP 6 Trigger Gate ctrl for Delay generator.
+  * meshscan c issue. 
 
 2. Review pending points from the previous meeting
     - [ ] What about SOLARIS involvement in the Sardana project? 
-      Zbi sent an email to Grz to ask about the situation about the sardana contact. He is waiting for reply.
+        Zbi sent an email to Grz to ask about the situation about the sardana contact. He is waiting for reply.
     - From previous meeting:
         - [ ] Alba beamlines migration to python 3: status update
-        Done with the beamline 3 and it is going to beamline 4
+            Done with the beamline 3 and it is going to beamline 4 
         - [ ] Increase of memory consumption in Pool and Macroserver: status update
-        Moving to pandas for Macroserver. For Pool was pytango and it is solved in latest version.
+            Moving to pandas for Macroserver. For Pool was pytango and it is solved in latest version.
         - [ ] Shutter integration in continuos scans: status update
             No update
         - [ ] Pseudomotors not reaching positions: need status update from Solaris control group.
@@ -55,7 +57,6 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Frei
     * How Tango issues affects Sardana?
         * https://github.com/tango-controls/pytango/issues/292 and https://github.com/tango-controls/cppTango/issues/686
         * https://github.com/tango-controls/pytango/issues/307 and https://github.com/sardana-org/sardana/pull/1298
-
     	    solved on cpp tango 9.3.4rc5 and need pytango release 9.3.2
     * Several PMTV and macroexecutor/sequencer improvement PRs
         No update but no critical to realease put the prio and another
