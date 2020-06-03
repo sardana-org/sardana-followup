@@ -28,40 +28,40 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAX IV - Aureo Fre
 
 2. Review pending points from the previous meeting
     - [ ] What about SOLARIS involvement in the Sardana project? 
-        Zbi sent an email to Grz to ask about the situation about the sardana contact. He is waiting for reply.
+	Zbi sent an email to Grz to ask about the situation about the sardana contact. He is waiting for reply.
     - From previous meeting:
         - [ ] Alba beamlines migration to python 3: status update
-            Done with the beamline 3 and it is going to beamline 4 
+	Done with the beamline 3 and it is going to beamline 4 
         - [ ] Increase of memory consumption in Pool and Macroserver: status update
-            Moving to pandas for Macroserver. For Pool was pytango and it is solved in latest version.
+	Moving to pandas for Macroserver. For Pool was pytango and it is solved in latest version.
         - [ ] Shutter integration in continuos scans: status update
-            No update
+	No update
         - [ ] Pseudomotors not reaching positions: need status update from Solaris control group.
-            No update
+	No update
         - [ ] MaxIV beats configuration status: update from  Alejandro's work.
-            No update
+	No update
         - [ ] Add information on how to access debug information of libtango9-dbgsym (seems like some information is not accessible)
-            No update
+	No update
         - [ ] Users can break Sardana by messing with configuration in Tango DB, diagnostic script should be created to check that
-            No update
+	No update
         - [ ] Few words on Python3 in Newsletter: status update
-            Zbi found a place that we can comment it https://sardana-controls.org/devel/guide_migration.html
-            Migration guid -> add all the informations there and the newsletter link the documentation. Previous migration already there for 0 to 1 but not from 1 to 2. make it officially in the docs
+	Zbi found a place that we can comment it https://sardana-controls.org/devel/guide_migration.html
+	Migration guid -> add all the informations there and the newsletter link the documentation. Previous migration already there for 0 to 1 but not from 1 to 2. make it officially in the docs
         - [ ] Configure CI on buster (problems with test suite on Python 3.6): status update
-            MAX IV will provide a docker image to add to buster ci.
+	MAX IV will provide a docker image to add to buster ci.
+        - [ ] 2nd Ctrl+C abort the macro: status update
+	Already integrated
 
 
 3. Overview of current developments / PR distribution
-        - [ ] 2nd Ctrl+C abort the macro: status update
-            Already integrated
     * How Tango issues affects Sardana?
         * https://github.com/tango-controls/pytango/issues/292 and https://github.com/tango-controls/cppTango/issues/686
         * https://github.com/tango-controls/pytango/issues/307 and https://github.com/sardana-org/sardana/pull/1298
-    	    solved on cpp tango 9.3.4rc5 and need pytango release 9.3.2
+	solved on cpp tango 9.3.4rc5 and need pytango release 9.3.2
     * Several PMTV and macroexecutor/sequencer improvement PRs
-        No update but no critical to realease put the prio and another
+	No update but no critical to realease put the prio and another
     * showscan online improvements
-        No update not critical to realease put the prio and another
+	No update not critical to realease put the prio and another
     * Jan20 release:
         * sardana-org/sardana#1315
     * ...
@@ -70,9 +70,9 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAX IV - Aureo Fre
     * When is the moment to be distributed ? Zbi will need to recreate the format. The latest one is not probably the Jan20 mainstrom realease will be the Jul20 release.
 
 5. Introduction of SEP19 ([#1328](https://github.com/sardana-org/sardana/pull/1328))
-    * Introduction by ALBA
-    * entry_points for sardana plugins but it is not so dynamic for plugin
+    * Introduction by ALBA.
+    * entry_points for sardana plugins.
 
 6. AOB
-    * Virtual Tango Meeting
-    * Next meeting is planned for 04.06.2020 at 14:00, organized by ALBA
+    * Virtual Tango Meeting.
+    * Next meeting is planned for 04.06.2020 at 14:00, organized by ALBA.
