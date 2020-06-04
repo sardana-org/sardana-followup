@@ -7,7 +7,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Frei
 1. Demo:
    * New MeasuremengGroup configuration API and expconf macros
    * Improved PCTV widget and Taurus entry point for TauruForm items factories
-       * MaxIV integrates detectors as counter/timer controllers. The detecotrs
+       * MaxIV integrates detectors as counter/timer controllers. The detectors
          just save data in the data center and these are not seen by the control
          system. SEP2 and Referable controllers could be used here to get the URI
          to the data to the Sardana file e.g. hdf5 with VDS to the detector's data.
@@ -20,7 +20,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Frei
         - Continuous Scans integration with Eiger done - now writing unit tests
             - [ ] Aureo will register the controllers in the sardana-plugin catalogue
         - Continuous Scans integration for a BL at the end of the linac (*a kind of FEL*)
-            - machine timing system injection (2Hz - 10Hz) signals together with delay generaor are used to synchronize the detectors.
+            - machine timing system injection (2Hz - 10Hz) signals together with delay generator are used to synchronize the detectors.
             - there are 15 detectors in the measurement group
             - a timestamp mismatch was observed in step scans
             - in continuous scan they plan to use a counting card (NI6602) to count
