@@ -29,4 +29,5 @@ To be held on 2020/08/20 at 14:00
 4. Discussion about Questionnaire ([#24](https://github.com/sardana-org/sardana-followup/issues/24))
     - Any feedback from your colleagues?
 5. SEP19 ([#1328](https://github.com/sardana-org/sardana/pull/1328))
-6. AOB
+6. Demo 'Scan statistics'
+7. AOB
