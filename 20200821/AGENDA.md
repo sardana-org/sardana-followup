@@ -1,6 +1,6 @@
-# Sardana Follow-up Meeting - 2020/08/20
+# Sardana Follow-up Meeting - 2020/08/21
 
-To be held on 2020/08/20 at 14:00
+To be held on 2020/08/21 at 11:00
 
 ## Agenda
 
