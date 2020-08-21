@@ -27,6 +27,7 @@ Alba:
 - PR (#1355) for adding custom data to the scan was sent.
 - added the possibility of adding custom data to the scan files (using
   the function addCustomData), the way used by spec was looked at.
+
 MaXIV:
 - they are testing python3 with the last release, they found some problems with
   python but the main problem was with nexus5. They manages to solve the
@@ -37,6 +38,7 @@ MaXIV:
   David is working in two new controllers talking directly to the
   hardware. Some problems trying to understand the behaviour of the
   TriggerGateController, it does not work with the time scan.
+
 Solaris:
 - issues about Sardana customization. It was asked for an easy way to set
   the logging level (they want to set it to INFO) and about naming templates
@@ -54,6 +56,7 @@ Solaris:
   that but it is known that it should be improved in sardana. For now the
   python path environment could be used, or the PoolPath property of the Pool
   device.
+
 DESY:
 - tests of sardana3 were done: it is already possibleto use at DESY with
   all the DESY related Sardana tools. Some beamlines use it.
