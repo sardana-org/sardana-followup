@@ -2,7 +2,7 @@
 
 Held on 2020/08/21 at 11:00
 
-Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Freitas (Mirjam Lindberg, David), Solaris - Michal Piekarski 
+Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Freitas (Mirjam Lindberg, David Erb), Solaris - Michal Piekarski 
 
 1. Urgent user problems/issues - Round table
 
