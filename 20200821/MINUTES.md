@@ -27,7 +27,6 @@ Alba:
 - PR (#1355) for adding custom data to the scan was sent.
 - added the possibility of adding custom data to the scan files (using
   the function addCustomData), the way used by spec was looked at.
-
 MaXIV:
 - they are testing python3 with the last release, they found some problems with
   python but the main problem was with nexus5. They manages to solve the
@@ -38,27 +37,25 @@ MaXIV:
   David is working in two new controllers talking directly to the
   hardware. Some problems trying to understand the behaviour of the
   TriggerGateController, it does not work with the time scan.
-
 Solaris:
 - issues about Sardana customization. It was asked for an easy way to set
   the logging level (they want to set it to INFO) and about naming templates
   (the default ones do not follow their naming convention and renaming by hand
   is a lot of work). Zibi suggested to use the Sardana custom
   settings. In solaris they use a sardana config file and also define there
-  the name convention. 
+  the name convention. In MaXIV dsconfig is used to easily rename Sardana elements. 
 - QtSpock: is integrated in a gui but once the scan is finished the command
   prompt does not appear, they found a way to workaround this but is not
   practicable for the users.
 - they are now working on making scans depending on the status of the beam.
-  There are many implementations (DESY, MaXIV, Alb), it should be unified
+  There are many implementations (DESY, MaXIV, Alba), it should be unified
   (a dedicated meeting will be scheduled for that)
 - how to import modules from controllers is an issue. SEP19 improves
   that but it is known that it should be improved in sardana. For now the
   python path environment could be used, or the PoolPath property of the Pool
   device.
-
 DESY:
-- tests of sardana3 were done: it is already possibleto use at DESY with
+- tests of sardana3 were done: it is already possible to use at DESY with
   all the DESY related Sardana tools. Some beamlines use it.
 - problems with fscan with virtual motors, an issue will be created if needed.
 
@@ -78,7 +75,7 @@ Extra issues reported by Zibi:
 
   - from Solaris
     * plugin interface for storing scan state, considering the case if the
-    scan was crashed and how to resume when starging again, it is not possible
+    scan was crashed and how to resume when starting again, it is not possible
     now. Alba also wanted to resume sequencies if they crash.
     - plugin interface for storing macroserver environment, for ex. Tango
     DB. With a plugin mechanism could be choosen where to store it.
@@ -95,7 +92,7 @@ Extra issues reported by Zibi:
 
     - [ ] MAX IV will provide a docker image to add to CI.
           It was some idea for extending the continuous integration, but is
-	  still not done. We will have a look to was Taurus did, they use
+	  still not done. We will have a look to what Taurus did, they use
 	  github workflow instead of travis, we will see that and also
 	  the singularity images.
 
