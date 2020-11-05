@@ -9,6 +9,7 @@ To be held on 2020/11/05 at 14:00 by SOLARIS
     - Bug squashing party - Virtual meeting based on questionnaire's results (November-December)?
 2. Urgent user problems/issues - Round table
     - Sardana motors archiving at HDB++ ([#1429](https://github.com/sardana-org/sardana/issues/1429))
+    - Controllers API ([#1430](https://github.com/sardana-org/sardana/issues/1430))
     - ?
 3. Review pending points from the previous meeting
     - From the last meeting:
