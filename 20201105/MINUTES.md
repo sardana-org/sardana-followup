@@ -19,7 +19,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Frei
   - Bug squashing party - Virtual meeting based on questionnaire's results
     - Postponed for now - first we need to have all answers
     - Before meeting, we need to evaluate all answers and create some kind of backlog to get to work right away during the meeting
-    - Dropping support for some deprecated features might also happen during the meeting
+    - Dropping support (or even removal) of features never fully implemented or buggy that no one is interested in e.g. sardanaeditor could eventually happen.
 2. Urgent user problems/issues - Round table
   - General issues:
       - Sardana motors archiving at HDB++ ([#1429](https://github.com/sardana-org/sardana/issues/1429))
