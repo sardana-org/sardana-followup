@@ -31,7 +31,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Frei
         - Allow for single file per scan (how to sync large hdf5 files) [#1452](https://github.com/sardana-org/sardana/issues/1452)
             - It was adviced to use pre-scan hooks to change the file
         - Accessing Tango from your macros question [#1453](https://github.com/sardana-org/sardana/issues/1453)
-            - PR w was added with more details to the FAQ
+            - PR was added with more details to the FAQ
     - DESY
         - During winter shutdown they will upgrade some beamlines to Sardana v3 (a little bit uncertain due to lockdown).
         - Not logging in 'prepare' method enhancement [#1435](https://github.com/sardana-org/sardana/issues/1435) - for the moment not priority.
@@ -41,7 +41,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Frei
         - 1D used as Referable [#1445](https://github.com/sardana-org/sardana/issues/1445).
             - Work on this will need to start from adding Referable functionality to the 1D dummy controller.
             - For the moment not priority since they used 2D instead.
-        - Stardana store memorized value for non-memorized values?
+        - Sardana store memorized value for non-memorized values?
             - [ ] Verify if Sardana axis/controller attribute are memorized by default.
     - ALBA
         - Fix continuous readout of value references in hardware synchronized acquisition  bug [#1442](https://github.com/sardana-org/sardana/issues/1442) - this one later also affected MAXIV
