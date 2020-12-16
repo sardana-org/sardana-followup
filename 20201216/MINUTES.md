@@ -108,3 +108,4 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Aureo Frei
     - Recent comment from the DESY users: using hooks may get complicated, even if they are nice feature
         - [ ] Clarify exactly what it means
         - Maybe related to using the same name of the hook but changing the implementation by many people?
+    - Next meeting is scheduled for 2021-01-20 at 11:00.
