@@ -32,5 +32,6 @@ To be held on 2021/01/20 at 11:00 by DESY
     - Decouple attributes default values from memorized values [#1458](https://github.com/sardana-org/sardana/issues/1458)
     - SEP19
     - Step scans burst/points_per_step parameter [#1450](https://github.com/sardana-org/sardana/issues/1450)
-    - pre- and post-move hooks not available in mv macro [#1471](https://github.com/sardana-org/sardana/issues/1471) 
-5. AOB
+    - pre- and post-move hooks not available in mv macro [#1471](https://github.com/sardana-org/sardana/issues/1471)
+5. Migration to gitlab
+6. AOB
