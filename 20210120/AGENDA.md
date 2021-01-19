@@ -9,7 +9,7 @@ To be held on 2021/01/20 at 11:00 by DESY
   - Visualization of the result?
 2. Discussion about Bug squashing party - Virtual meeting based on questionnaire's results
 3. Urgent user problems/issues - Round table
-3. Review pending points from the previous meeting
+4. Review pending points from the previous meeting
     - From the last meeting:
         - [ ] Post motor polling related issues in [#1431](https://github.com/sardana-org/sardana/issues/1431)
         - [ ] Find a way of doing stuff with hardware on the beginning and end of the acquisition in 0D (i.e switch on/off hardware) ([#1322](https://github.com/sardana-org/sardana/issues/1322))
