@@ -25,7 +25,7 @@ To be held on 2021/01/20 at 11:00 by DESY
         - [ ] Add information on how to access debug information of libtango9-dbgsym (seems like some information is not accessible). 
         - [ ] Users can break Sardana by messing with configuration in Tango DB, diagnostic script should be created to check that.
         - [ ] Configure CI on buster (problems with test suite on Python 3.6): status update.
-4. Overview of current developments / PR distribution
+5. Overview of current developments / PR distribution
     - Problems for axis attributes with same name but different properties [#1436](https://github.com/sardana-org/sardana/issues/1436)
     - Travis is discontinuing the unlimited CI service for OSS projects [#1433](https://github.com/sardana-org/sardana/issues/1433)
     - Allow SWMR mode and avoid flock problems with NXscanH5_FileRecorder [#1457](https://github.com/sardana-org/sardana/issues/1457)
