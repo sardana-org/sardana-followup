@@ -34,4 +34,7 @@ To be held on 2021/01/20 at 11:00 by DESY
     - Step scans burst/points_per_step parameter [#1450](https://github.com/sardana-org/sardana/issues/1450)
     - pre- and post-move hooks not available in mv macro [#1471](https://github.com/sardana-org/sardana/issues/1471)
 6. Migration to gitlab
-6. AOB
+6. Sardana release Jan21
+   - Who are the release managers?
+   - Preselect milestone scope
+7. AOB
