@@ -84,6 +84,21 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV -  Abdullah 
 	   Zibi will dedicate time to this. It could be an issue with the packages
 	   coming from the distribution. The problems with the test suite are solved updating
 	   tango. The CI part is related to github vs gitlab.
+	- [ ] Teresa will investigate how do they store the ROI configuration (if store at all)
+	  No updates.
+	- [ ]   macro plots in spock do not appear until macro finishes #166 - try with QtSpock.
+	  No updates.
+	- [ ] Verify if Sardana axis/controller attribute are memorized by default.
+	  No updates.
+	- [ ] Hang scan due to the counter/timer controller timeout in StateOne() - How to deal with exceptions in the controllers: Review the docs?
+	  No updates.
+	  - [ ] Decouple attributes default values from memorized values #1458
+          DESY, MAXIV agree on the changes; SOLARIS will answer later.
+	  No updates.
+	  - [ ] Recent comment from the DESY users: using hooks may get complicated, even if they
+	  are nice feature - Clarify exactly what it means
+	  No updates.
+
 
 5. Overview of current developments / PR distribution
     - Problems for axis attributes with same name but different properties [#1436](https://github.com/sardana-org/sardana/issues/1436)
@@ -146,7 +161,5 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV -  Abdullah 
     - RoIs settings set in a file.
 
     Deeper discussion will be done. Check is the Snapshot can be used.
-
-    - Check points from last meeting not treated in this one (from Minutes)
 
     - Next meeting is scheduled for 2021-02-18 and will be organized by MaxIV.
