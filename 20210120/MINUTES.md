@@ -114,7 +114,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV -  Abdullah 
     The migration to gitlab will also imply a migration of the documentation, gitlab pages could host it.
     We could wait and see the experience of other projects.
     Solaris and MaxIV have their own repos in gitlab, but they agree on waiting.
-    We agree on keeping github.
+    We agree on keeping github for the moment at the same time not starting to use more github features (in order to not make the eventual future migration harder).
     
     
 7. Sardana release Jan21
