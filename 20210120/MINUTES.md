@@ -62,8 +62,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV -  Abdullah 
 	      Daniel agrees with that and thinks it is the way the hardware does.
 	      Zibi suggests to accept the current PR but create an new issue for distinguishing between stop and abort
 	      (one/two ctrl-C)
-	      A discussion about the motor group devices arised, the possibility of avoiding the creation will be analysed by
-	      Zibi, it could be that they are not actually needed.
+	      A discussion about the motor group devices arised, the possibility of avoiding the creation of the Tango devices was proposed by @tiagocoutinho (in the past it was already mentione in [sardana-org/sardana#1338](https://github.com/sardana-org/sardana/issues/1338#issuecomment-637646445).
         - [ ] How to make scans depending on the status of the beam - organize a dedicated meeting to unify the existing solutions (Requirements must be documented) - see discussion started in [#1450](https://github.com/sardana-org/sardana/issues/1450)
 	      Teresa put in the PR what is done at DESY.
 	      Solaris and MBI use the acquisition hooks, but like this you can not store the repeated points.
