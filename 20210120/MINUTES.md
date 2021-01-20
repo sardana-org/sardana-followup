@@ -2,7 +2,7 @@
 
 Held on 2021/01/20 at 11:00
 
-Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV -  Abdullah Amjad, SOLARIS - Michal Piekarski, MBI Berlin - Daniel Schick, Stanislaw
+Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV -  Abdullah Amjad, SOLARIS - Michal Piekarski and Stanisław Cabała, MBI Berlin - Daniel Schick
 
 ## Minutes
 
