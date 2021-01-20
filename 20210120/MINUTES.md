@@ -88,7 +88,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV -  Abdullah 
 
 5. Overview of current developments / PR distribution
     - Problems for axis attributes with same name but different properties [#1436](https://github.com/sardana-org/sardana/issues/1436)
-      Not updates. Henry will do the programming.
+      Not updates (due to the holidays period) Henrik and Zibi will do the pair-programming.
     - Travis is discontinuing the unlimited CI service for OSS projects [#1433](https://github.com/sardana-org/sardana/issues/1433)
       It is the point 6 of the agenda.
     - Allow SWMR mode and avoid flock problems with NXscanH5_FileRecorder [#1457](https://github.com/sardana-org/sardana/issues/1457)
