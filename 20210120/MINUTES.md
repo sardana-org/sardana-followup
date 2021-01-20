@@ -128,7 +128,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV -  Abdullah 
    New issues could be added.
 
    The manual tests will be done in:
-   debian9, debian10, centos, windows, singularity (conda images - debian)
+   debian9, debian10, centos, windows, singularity (wrappling a docker image build on top of the conda base image)
 
    Taurus will not do a release now.
 
