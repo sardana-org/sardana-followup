@@ -106,7 +106,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV -  Abdullah 
       It is proposed to add a motor attribute to all macros with pre/post-moves
     - PseudoCounters accessing pseudocounters.
       It does not work if sardana is reinitialized. It sounds like a bug.
-      Zibi will look into that.
+      @dschick will try to reproduce the problem and report it as an issue. 
     
 6. Migration to gitlab
     Travis will not support the public OS for free, we are alredy using the budget
