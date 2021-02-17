@@ -41,7 +41,7 @@ To be held on 2021/02/18 at 14:00
         are nice feature - Clarify exactly what it means
 
 
-5. Overview of current developments / PR distribution
+6. Overview of current developments / PR distribution
     - Problems for axis attributes with same name but different properties [#1436](https://github.com/sardana-org/sardana/issues/1436)
     - Allow SWMR mode and avoid flock problems with NXscanH5_FileRecorder [#1457](https://github.com/sardana-org/sardana/issues/1457). Carlos will review it.
     - Decouple attributes default values from memorized values [#1458](https://github.com/sardana-org/sardana/issues/1458)
@@ -58,12 +58,11 @@ To be held on 2021/02/18 at 14:00
     - RoIs settings set in a file. A PR was merged.
 
 
-6. Migration to gitlab. Travis is discontinuing the unlimited CI service for OSS projects [#1433](https://github.com/sardana-org/sardana/issues/1433).
+7. Migration to gitlab. Travis is discontinuing the unlimited CI service for OSS projects [#1433](https://github.com/sardana-org/sardana/issues/1433).
 
-7. Renaming of master branch to main.
+8. Renaming of master branch to main.
 
-
-8. Sardana release Jan21
+9. Sardana release Jan21
    - Who are the release managers? Zbi and Michal.
    - Preselect milestone scope
 
@@ -78,5 +77,5 @@ To be held on 2021/02/18 at 14:00
    Taurus will not do a release now.
 
 
-8. AOB
+10. AOB
 
