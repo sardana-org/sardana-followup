@@ -26,11 +26,11 @@ To be held on 2021/02/18 at 14:00
         - [ ] macros running in paralell in two doors miss events, the problem comes probably from    Tango. Ex. one macro moves a motor and the other in other door run acquisition for the detector suscribing to events, this hangs the macroserver. Zibi will create an issue, it is reported to Tango/PyTango.
         - [ ] finishing migration to sardana3. Problems discussed with Zibi. There were configuration problems, due to the latency time of the controllers. A PR was proposed and it is merged. Zibi will add this to the documentation.
         - [ ] increasing the use of macros and of submacros in macros using the return value. Daniel thinks that it is a bit overload how to do it now. He asks if it would be possible to simply call a macro and get the value. Zibi will check the possibilities already available. At MBI it is used: `self.execMacro("twice 1").getResult()`
-    - From the previous meetings:
         - [ ] Post motor polling related issues in [#1431](https://github.com/sardana-org/sardana/issues/1431)
         - [ ] Find a way of doing stuff with hardware on the beginning and end of the acquisition in 0D (i.e switch on/off hardware) ([#1322](https://github.com/sardana-org/sardana/issues/1322))
             - PR should be posted for the discussion
             - adding `Start` method is a reasonable option
+    - From the previous meetings:
         - [ ] SOLARIS: Cannot stop multiple motors movement in backlash direction [#1421](https://github.com/sardana-org/sardana/issues/1421). Status update. Zibi suggests to accept the current PR but create an new issue for distinguishing between stop and abort.
         - [ ] A discussion about the motor group devices arised, the possibility of avoiding the creation of the Tango devices was proposed by @tiagocoutinho (in the past it was already mentione in [sardana-org/sardana#1338](https://github.com/sardana-org/sardana/issues/1338#issuecomment-637646445).
         - [ ] How to make scans depending on the status of the beam - organize a dedicated meeting to unify the existing solutions (Requirements must be documented) - see discussion started in [#1450](https://github.com/sardana-org/sardana/issues/1450). Zibi and Teresa met and they will report.
