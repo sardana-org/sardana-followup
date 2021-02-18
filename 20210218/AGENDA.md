@@ -13,9 +13,19 @@ To be held on 2021/02/18 at 14:00
     - MAX IV
         - Run hooks even if the scan fails.
         - Before starting the scan, Sardana should verify the states of measurement channels.
+    - ALBA
+        - Allow to use ScanDir, ScanFile and channel name in value_ref_pattern - [#1500](https://github.com/sardana-org/sardana/issues/1500)
+        - Pool does not start if controller code is not available and controller's channels belong to the measurement group - [#1499](https://github.com/sardana-org/sardana/issues/1499)
+        - Add the possibility to perform a continuous scan with a single point [#1501](https://github.com/sardana-org/sardana/issues/1501)
+        - Wrong PseudoMotor first movement after externally changing physical motor [#1502](https://github.com/sardana-org/sardana/issues/1502)
+        - Motion hangs when moving a motor group up to hardware limit [#1503](https://github.com/sardana-org/sardana/issues/1503)
 5. Review pending points from the previous meeting
     - Growing list of pending points. What we should do about it?
     - From the last meeting:
+        - [ ] showscan is broken in spock, Zibi will work on that.
+        - [ ] macros running in paralell in two doors miss events, the problem comes probably from    Tango. Ex. one macro moves a motor and the other in other door run acquisition for the detector suscribing to events, this hangs the macroserver. Zibi will create an issue, it is reported to Tango/PyTango.
+        - [ ] finishing migration to sardana3. Problems discussed with Zibi. There were configuration problems, due to the latency time of the controllers. A PR was proposed and it is merged. Zibi will add this to the documentation.
+        - [ ] increasing the use of macros and of submacros in macros using the return value. Daniel thinks that it is a bit overload how to do it now. He asks if it would be possible to simply call a macro and get the value. Zibi will check the possibilities already available. At MBI it is used: `self.execMacro("twice 1").getResult()`
         - [ ] Post motor polling related issues in [#1431](https://github.com/sardana-org/sardana/issues/1431)
         - [ ] Find a way of doing stuff with hardware on the beginning and end of the acquisition in 0D (i.e switch on/off hardware) ([#1322](https://github.com/sardana-org/sardana/issues/1322))
             - PR should be posted for the discussion
@@ -56,6 +66,15 @@ To be held on 2021/02/18 at 14:00
       @dschick will try to reproduce the problem and report it as an issue.
     - 1D/2D shape should go out from the configuration. [#1466](https://github.com/sardana-org/sardana/pull/1466/files#diff-b4dc204bf8202495936aa3777355984035597d4d9da04f35dbe9342c312782a5R666). Already merged.
     - RoIs settings set in a file. A PR was merged.
+    - Add script to upgrade mntgrp from Sardana 2 to Sardana 3 - [#1488](https://github.com/sardana-org/sardana/pull/1488)
+    - WIP: Add hook execution logging - [#1496](https://github.com/sardana-org/sardana/pull/1496)
+    - WIP: Make Sardana storage Tango independent - [#1495](https://github.com/sardana-org/sardana/pull/1495)
+    - WIP: Add RoI pseudo counters [#1482](https://github.com/sardana-org/sardana/pull/1482)
+    - WIP: Generic data recorder [#1478](https://github.com/sardana-org/sardana/pull/1478)
+    - Sardana upload to conda-forge
+    - Shape is read only axis parameter
+    - Documentation was improved: SEP2 and SEP18
+    - All GUI related issues were marked with a label - soon a student from ALBA  - Gabriel will start working on them
 
 
 7. Migration to gitlab. Travis is discontinuing the unlimited CI service for OSS projects [#1433](https://github.com/sardana-org/sardana/issues/1433).
