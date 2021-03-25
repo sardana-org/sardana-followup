@@ -33,16 +33,11 @@ To be held on 2021/03/25 at 14:00
     - SEP19. Update from Zbi.
     - pre- and post-move hooks not available in mv macro [#1471](https://github.com/sardana-org/sardana/issues/1471). A propostion: add pre-mv and post-mv to mv, have sardana custom setting to  call them in a mv or not.
       Meanwhile work on general hooks with more granularity, add hooks to macros or groups of macros.
-    - 1D/2D shape should go out from the configuration. [#1466](https://github.com/sardana-org/sardana/pull/1466/files#diff-b4dc204bf8202495936aa3777355984035597d4d9da04f35dbe9342c312782a5R666). Already merged.
-    - RoIs settings set in a file. A PR was merged.
     - Add script to upgrade mntgrp from Sardana 2 to Sardana 3 - [#1488](https://github.com/sardana-org/sardana/pull/1488)
     - WIP: Add hook execution logging - [#1496](https://github.com/sardana-org/sardana/pull/1496)
     - WIP: Make Sardana storage Tango independent - [#1495](https://github.com/sardana-org/sardana/pull/1495)
     - WIP: Add RoI pseudo counters [#1482](https://github.com/sardana-org/sardana/pull/1482)
     - WIP: Generic data recorder [#1478](https://github.com/sardana-org/sardana/pull/1478)
-    - Sardana upload to conda-forge
-    - Shape is read only axis parameter
-    - Documentation was improved: SEP2 and SEP18
     - All GUI related issues were marked with a label - soon a student from ALBA  - Gabriel will start working on them
     
 7. Migration to gitlab. 
