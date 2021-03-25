@@ -4,13 +4,14 @@ To be held on 2021/03/25 at 14:00
 
 ## Agenda
 
-1. Discussion about Questionnaire ([#24](https://github.com/sardana-org/sardana-followup/issues/24))
+1. Demo of the [_h5 session_](https://sardana-controls.org/users/scan.html#nxscanh5-filerecorder) concept.
+2. Discussion about Questionnaire ([#24](https://github.com/sardana-org/sardana-followup/issues/24))
   - Answers for all institutes?
   - Visualization of the result?
   - MAX IV - what features are being used at different sub-systems in a sheet format
-2. Discussion about Bug squashing party - Virtual meeting based on questionnaire's results
-3. Urgent user problems/issues - Round table
-4. Review pending points from the previous meeting
+3. Discussion about Bug squashing party - Virtual meeting based on questionnaire's results
+4. Urgent user problems/issues - Round table
+5. Review pending points from the previous meeting
     - From the last meeting
         - [ ] Before starting the scan, Sardana should verify the states of measurement channels.
      - From the previous meetings:
