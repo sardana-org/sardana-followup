@@ -57,7 +57,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Abdullah A
             - Alba prepared Debian packages for both with patches ([here](https://github.com/reszelaz/sardana-test))
         - [X] increasing the use of macros and of submacros in macros using the return value. Daniel thinks that it is a bit overload how to do it now. He asks if it 
         would be possible to simply call a macro and get the value. Zibi will check the possibilities already available. At MBI it is used: self.execMacro("twice 1").getResult()
-            - investigation in progess [#1504](https://github.com/sardana-org/sardana/issues/1504)
+            - investigation in progress [#1504](https://github.com/sardana-org/sardana/issues/1504)
         - [ ] Alba propose examples on how to program without on_stop() and on_abort() Macro methods.
             - No update
         - [X] MAX IV will provide a docker image to add to CI.
