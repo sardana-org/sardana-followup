@@ -101,8 +101,10 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Abdullah A
         - automatic tests based on PyTest need some more attention and will be merged later not to delay the Release
     - Execute post-scan also in case of stop, abort and exception [#1538](https://github.com/sardana-org/sardana/pull/1538)
         - post-scan hooks are performed in case of an exception - it is good
-        - at the moment they are not called in a case of stopping and aborting
-            - only the hook macro should be called not the whole stack (for safety reasons)
+        - at the moment they are not called in case of stop or abort since no macros can run after a `Ctrl + C`
+        - possible solutions would be allow only the post-scan macro to run after the `Ctrl + C` or
+        use a callable instead. The preferred solution is the first one, but it has to be evaluated
+        - the second one is already used at DESY to overcome the problem
     - Cannot recreate measurement group with same name [#1528](https://github.com/sardana-org/sardana/issues/1528)
         - there was an old solution for Tango8 but it was blocked by a bug
         - Zibi will find it and try to update it to work with new Tango and Sardana3
