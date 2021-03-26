@@ -6,13 +6,13 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Abdullah A
 
 ## Minutes
 1. Demo of the [h5 session](https://sardana-controls.org/users/scan.html#nxscanh5-filerecorder) concept. 
-  - Issue presented in [this](https://github.com/sardana-org/sardana/pull/1457) PR.
-  - Discussion: find an automatic way of controlling a scan with h5 session (using pre/post scan hooks might be an idea)  
+    - Issue presented in [this](https://github.com/sardana-org/sardana/pull/1457) PR.
+    - Discussion: find an automatic way of controlling a scan with h5 session (using pre/post scan hooks might be an idea)  
 2. Discussion about Questionnaire ([#24](https://github.com/sardana-org/sardana-followup/issues/24))
-  - MAX IV submitted partial results - 2 weeks more time to gather the rest
-  - after this time ALBA will prepare a visualisation and presentation of the results for the next meeting
+    - MAX IV submitted partial results - 2 weeks more time to gather the rest
+    - after this time ALBA will prepare a visualisation and presentation of the results for the next meeting
 3. Discussion about Bug squashing party - Virtual meeting based on questionnaire's results
-  - still postponed - we need results first
+    - still postponed - we need results first
 4. Urgent user problems/issues - Round table
     - SOLARIS
         - No urgent issues - proceeds with Sardana 3 migration
@@ -24,19 +24,19 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Abdullah A
         - No urgent issues
         - Discussion: find a way to share macros with the Community
             - make use of [Macro Catalogue](https://sourceforge.net/p/sardana/macros.git/ci/master/tree/)
-            - [plugin catalogue](https://github.com/sardana-org/sardana-plugins) does not have macros 
+            - [plugin catalogue](https://github.com/sardana-org/sardana-plugins) does not contain macros 
             - organize one common place to keep all plugins/applications to be easy to find
             - adding more generic macros from all institutes to such a catalogue would be beneficial for the Community
     - ALBA
         - Migration of the 5th beamline caused some troubles and rollback was needed. After locating problem on a PyTango/cppTango level
         ([#315](https://gitlab.com/tango-controls/pytango/-/issues/315)) migration has been made one more time - more stress test will be performed
-        - Controller to NI hardware causes problem when Pool is shut down - it keeps hanging and hardkill is necessary - to be investigated
+        - Controller to NI hardware causes problems when Pool is shut down - it keeps hanging and hardkill is necessary - to be investigated
         - Alba EM plugin - Alba asks MAX IV to check the PR
         - hdf5 with VDS feature problems [#1510](https://github.com/sardana-org/sardana/pull/1510)
         - MS environment empty issue (DESY had similar problems)- now fixed [#1520](https://github.com/sardana-org/sardana/pull/1520)
         - Repeat result fails to be shown in Spock [#1518](https://github.com/sardana-org/sardana/issues/1518)
         - MeasurementGroup state is not evaluated if not acquiring [#1316](https://github.com/sardana-org/sardana/issues/1316)
-        - Wrong time estimation in continuous scans reported by beamline scientists - calculation methods need to be reviewed (as we show it to the user
+        - Wrong time estimation in continuous scans reported by beamline scientists - calculation methods need to be reviewed (as we show it to the users
         it needs to be accurate)
             - Discussion: how to reduce dead time in step scans? 
                 - Teresa and Zibi have discussed that topic in the past
@@ -81,11 +81,12 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Abdullah A
     - Discussion: how to handle this section not to go through the list of recurrent issues/PRs?
         - do not make a static list in the agenda
         - add here issues only that need discussion
-        - one can add point during the meeting in this section (if comment/help/review is necessary)
+        - one can add points in this section during the meeting (if comment/help/review is necessary)
     - pre- and post-move hook [#1480](https://github.com/sardana-org/sardana/pull/1480)
         - some issues found - Daniel, Zibi and Teresa will stay in touch to solve them
-    - Creating pseudocounters from pseudocounters - it works until one restarts Sardana - then because of the order of adding the elements during startup, Sardana is missing them and 
-    can't start at all
+    - Creating pseudocounters from pseudocounters 
+        - it works until one restarts Sardana - then because of the order of adding the elements during startup, Sardana is missing them and 
+        can't start at all
         - problem seem to occur only on real elements - on dummy ones it works
     - Apply position formatting to the limits [#1530](https://github.com/sardana-org/sardana/pull/1530)
         - docstring style is messing the sphinx build: change style on enable napoleon extension (if accepted) [#1533](https://github.com/sardana-org/sardana/pull/1533)  
