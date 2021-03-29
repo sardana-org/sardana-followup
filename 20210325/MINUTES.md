@@ -7,7 +7,9 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Abdullah A
 ## Minutes
 1. Demo of the [h5 session](https://sardana-controls.org/users/scan.html#nxscanh5-filerecorder) concept. 
     - Issue presented in [this](https://github.com/sardana-org/sardana/pull/1457) PR.
-    - Discussion: find an automatic way of controlling a scan with h5 session (using pre/post scan hooks might be an idea)  
+    - Discussion: find an automatic way of controlling a scan with h5 session, some ideas:
+        - using pre/post scan hooks 
+        - MacroServer startup hook (that would be called automatically after starting the server (an opposite to the atexit)
 2. Discussion about Questionnaire ([#24](https://github.com/sardana-org/sardana-followup/issues/24))
     - MAX IV submitted partial results - 2 weeks more time to gather the rest
     - after this time ALBA will prepare a visualisation and presentation of the results for the next meeting
@@ -23,10 +25,11 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Abdullah A
     - MBI
         - No urgent issues
         - Discussion: find a way to share macros with the Community
-            - make use of [Macro Catalogue](https://sourceforge.net/p/sardana/macros.git/ci/master/tree/)
+            - one place is [Macro Catalogue](https://sourceforge.net/p/sardana/macros.git/ci/master/tree/)
             - [plugin catalogue](https://github.com/sardana-org/sardana-plugins) does not contain macros 
             - organize one common place to keep all plugins/applications to be easy to find
             - adding more generic macros from all institutes to such a catalogue would be beneficial for the Community
+            - final decision: we develop [plugin catalogue](https://github.com/sardana-org/sardana-plugins)
     - ALBA
         - Migration of the 5th beamline caused some troubles and rollback was needed. After locating problem on a PyTango/cppTango level
         ([#315](https://gitlab.com/tango-controls/pytango/-/issues/315)) migration has been made one more time - more stress test will be performed
@@ -89,12 +92,12 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Abdullah A
         can't start at all
         - problem seem to occur only on real elements - on dummy ones it works
     - Apply position formatting to the limits [#1530](https://github.com/sardana-org/sardana/pull/1530)
-        - docstring style is messing the sphinx build: change style on enable napoleon extension (if accepted) [#1533](https://github.com/sardana-org/sardana/pull/1533)  
+        - docstring style is messing the sphinx build: change style or enable napoleon extension (if accepted) [#1533](https://github.com/sardana-org/sardana/pull/1533)  
     - Docstring styles [#1535](https://github.com/sardana-org/sardana/issues/1535)
         - docstring should be consistent
         - we keep the discussion open to see if there is any interest in the community to use a different docstring style than the reStructuredText (reST)
     - Move regscans to scans [#1540](https://github.com/sardana-org/sardana/pull/1540)
-        - do we need backporting?
+        - do we need backwards compatibility?
             - in DESY they use custom names
     - Set stop flags for each element in multiple elements movement [#1539](https://github.com/sardana-org/sardana/pull/1539)
         - at the moment bug fix is merged to develop after manual tests
@@ -106,12 +109,12 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Abdullah A
         use a callable instead. The preferred solution is the first one, but it has to be evaluated
         - the second one is already used at DESY to overcome the problem
     - Cannot recreate measurement group with same name [#1528](https://github.com/sardana-org/sardana/issues/1528)
-        - there was an old solution for Tango8 but it was blocked by a bug
+        - there was an old solution not compatible with Tango8
         - Zibi will find it and try to update it to work with new Tango and Sardana3
     - Add the possibility to perform a continuous scan with a single point [#1501](https://github.com/sardana-org/sardana/issues/1501)
         - not executing the last acquisition issue:
-            - Pass nr_interv as negative number which would indicate skipping the last acquisition or add another parameter
-            - MAX IV and Alba prefer second option
+            - Pass nr_interv as negative number which would indicate skipping the last acquisition or break backwards compatibility and change `nr_interv` to `nr_points` directly
+            - MAX IV and Alba prefer second option but some more research and cost evaluation is needed
 
 7. Migration to gitlab.
     - Carlos volunteered to prepare a PR for CI migration
