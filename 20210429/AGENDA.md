@@ -50,7 +50,7 @@ To be held on 2021/04/29 at 14:00
    - Next step: write newsletter and review if all relevant changes are in the docs.  
     
 6. Overview of current developments / PR distribution
-    - - Macro plots appear twice in QtSpock [#1570](https://github.com/sardana-org/sardana/issues/1570)
+    - Macro plots appear twice in QtSpock [#1570](https://github.com/sardana-org/sardana/issues/1570)
       - Bug or feature?
     - Create controller from a Macroserver with two pools [#589](https://github.com/sardana-org/sardana/issues/589)
       - Design proposed. Any volunteers to work on that?
