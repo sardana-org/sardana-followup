@@ -50,6 +50,19 @@ To be held on 2021/04/29 at 14:00
    - Next step: write newsletter and review if all relevant changes are in the docs.  
     
 6. Overview of current developments / PR distribution
+    - - Macro plots appear twice in QtSpock [#1570](https://github.com/sardana-org/sardana/issues/1570)
+      - Bug or feature?
+    - Create controller from a Macroserver with two pools [#589](https://github.com/sardana-org/sardana/issues/589)
+      - Design proposed. Any volunteers to work on that?
+    - Consider removing dtype from the measurement group configuration [#1561](https://github.com/sardana-org/sardana/issues/1561)
+      - Anyone knows on recorders usign this information?
+    - Refractor hooks for move macros [#1544](https://github.com/sardana-org/sardana/pull/1544)
+    - Fix1537 move regscan to scans [#1540](https://github.com/sardana-org/sardana/pull/1540)
+    - Last scan macro data http://github.com/sardana-org/sardana/issues/290#issuecomment-819440784
+    - sardana CLI [#286](https://github.com/sardana-org/sardana/issues/286)
+      - Anyone volunteering to work on this? Would allow us to remove annoying taurus log messages when launching expconf, showscan in Spock.
+    - Not possible to call mAPI methods (macro API) after stopping/aborting a macro (SF#9) [#10](https://github.com/sardana-org/sardana/issues/10)
+    - Execute post-scan also in case of stop, abort and exception [#1538](https://github.com/sardana-org/sardana/pull/1538)
     - To be filled during the meeting...
     
 7. Migration to gitlab and rename master branch to main/stable.
