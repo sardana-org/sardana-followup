@@ -24,7 +24,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Johan Fors
 3. Urgent user problems/issues - Round table
    - ALBA (not really urgent issues)
      - Next beamline migrated to Sardana 3
-       - They suffer from slow Taurus GUI due to the massive amount of events coming from motors 25 per s from 8 motors.
+       - They suffer from slow Taurus GUI due to the massive amount of events coming from motors (25 per s from 8 motors).
        - Tango event change criteria can not be used - another DS requires this frequency of events
      - Macro output unicode extended characters crashes macroserver [#1553](https://github.com/sardana-org/sardana/issues/1553)
      - one-point scan [#1303](https://github.com/sardana-org/sardana/issues/1303)
@@ -35,7 +35,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Johan Fors
         - [ ] MacroServer startup hook (that would be called automatically after starting the server - an opposite to the atexit)
             - Should we create a feature request for that?
             - At DESY they use this kind of hooks which are integrated in the Sardana startup procedure
-            - [ ] Zibi will create a feature reqeust. 
+            - [ ] Zibi will create a feature request. 
         - [ ] Alba EM plugin - Alba asks MAX IV to check the PR
              - [ ] Johan will take a look on the PR
         - [ ] Wrong time estimation in continuous scans reported by beamline scientists - calculation methods need to be reviewed (as we show it to the users
@@ -84,7 +84,7 @@ Participants: ALBA - Zbigniew Reszela, DESY - Teresa Núñez, MAXIV - Johan Fors
        - Design proposed. Any volunteers to work on that?
        - More than one Pool is used only at ALBA
     - Consider removing dtype from the measurement group configuration[#1561](https://github.com/sardana-org/sardana/issues/1561)
-      - Anyone knows on recorders usign this information?
+      - Anyone knows on recorders using this information?
     - Refactor hooks for move macros [#1544](https://github.com/sardana-org/sardana/pull/1544)
     - Fix1537 move regscan to scans [#1540](https://github.com/sardana-org/sardana/pull/1540)
     - Last scan macro data http://github.com/sardana-org/sardana/issues/290#issuecomment-819440784
