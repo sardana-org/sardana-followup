@@ -4,9 +4,10 @@ To be held on 2021/06/10 at 14:00
 
 ## Agenda
 
-1. Discussion about _Bug squashing party_ - Virtual meeting based on the questionnaire's results
-2. Urgent user problems/issues - Round table
-3. Review pending points from the previous meeting
+1. Discussion about the release process (including Zibi presentation)
+2. Discussion about _Bug squashing party_ - Virtual meeting based on the questionnaire's results
+3. Urgent user problems/issues - Round table
+4. Review pending points from the previous meeting
      - From previous meetings:
         - [ ] MacroServer startup hook (that would be called automatically after starting the server - an opposite to the atexit)
               - Zibi wanted to create a PR
@@ -24,7 +25,7 @@ To be held on 2021/06/10 at 14:00
         - [ ] Hang scan due to the counter/timer controller timeout in StateOne() - How to deal with exceptions in the controllers: Review the docs?
   
     
-4. Overview of current developments / PR distribution
+5. Overview of current developments / PR distribution
     - Macro plots appear twice in QtSpock [#1570](https://github.com/sardana-org/sardana/issues/1570)
       - Bug or feature?
     - Create controller from a Macroserver with two pools [#589](https://github.com/sardana-org/sardana/issues/589)
@@ -39,6 +40,6 @@ To be held on 2021/06/10 at 14:00
     - Execute post-scan also in case of stop, abort and exception [#1538](https://github.com/sardana-org/sardana/pull/1538)
     - General Conditions [#1481](https://github.com/sardana-org/sardana/pull/1481)
     
-5. Migration to gitlab and rename master branch to main/stable.
+6. Migration to gitlab and rename master branch to main/stable.
 
-6. AOB
+7. AOB
