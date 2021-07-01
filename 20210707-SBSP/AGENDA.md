@@ -1,5 +1,9 @@
 # Sardana Bug Squashing Party (SBSP) 2021
 
+## Where?
+
+[https://meet.jit.si/sardana](https://meet.jit.si/sardana)
+
 ## Agenda
 
 ### Wednesday 7.06.2021
