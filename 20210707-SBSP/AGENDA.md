@@ -18,14 +18,14 @@
 ```
  9:00 -  9:15 - Daily meeting
  9:15 - 11:00 - Squashing Bugs:)
-11:00 - 11:15 - Coffee Break
+11:00 - 11:15 - Virtual Coffee Break
 11:15 - 13:00 - Squashing Bugs:)
 ```
-### Thursday 9.06.2021
+### Friday 9.06.2021
 ```
  9:00 -  9:15 - Daily meeting
  9:15 - 11:00 - Squashing Bugs:)
-11:00 - 11:15 - Coffee Break
+11:00 - 11:15 - Virtual Coffee Break
 11:15 - 12:45 - Squashing Bugs:)
 12:45 - 13:00 - Summary & Closing
 ```
