@@ -17,14 +17,14 @@ Zoom Meeting URL: https://rediris.zoom.us/j/84897642777?pwd=NVl0ZHZhcmlrKy9QSjE2
 ```
 ### Thursday 8.06.2021
 ```
- 9:00 -  9:15 - _Daily meeting_
+ 9:00 -  9:15 - Daily meeting
  9:15 - 11:00 - Squashing Bugs
 11:00 - 11:15 - Virtual Coffee Break :)
 11:15 - 13:00 - Squashing Bugs
 ```
 ### Friday 9.06.2021
 ```
- 9:00 -  9:15 - _Daily meeting_
+ 9:00 -  9:15 - Daily meeting
  9:15 - 11:00 - Squashing Bugs
 11:00 - 11:15 - Virtual Coffee Break :)
 11:15 - 12:45 - Squashing Bugs
