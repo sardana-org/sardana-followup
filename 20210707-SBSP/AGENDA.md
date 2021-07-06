@@ -8,9 +8,9 @@ Zoom Meeting URL: https://rediris.zoom.us/j/84897642777?pwd=NVl0ZHZhcmlrKy9QSjE2
 
 ### Wednesday 7.06.2021
 ```
- 9:00 -  9:15 - Welcome & Presentation of participants
- 9:15 -  9:30 - SBSP 2021 format presentation
- 9:30 -  9:45 - Sardana architecture and codebase overview
+ 9:00 -  9:15 - SBSP 2021 format presentation
+ 9:15 -  9:30 - Sardana architecture and codebase overview
+ 9:30 -  9:45 - Let's solve a demo issue! (using VSC devcontainers)
  9:45 - 11:00 - Squashing Bugs
 11:00 - 11:15 - Virtual Coffee Break :)
 11:15 - 13:00 - Squashing Bugs
