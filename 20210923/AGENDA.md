@@ -28,4 +28,6 @@ To be held on Thursday 2021/09/23 at 14:00
     
 5. Migration to gitlab and rename master branch to main/stable.
 
-6. AOB
+6. Sardana release 3.2 (Jul21 milestone)
+
+7. AOB
