@@ -29,7 +29,8 @@ Participants:
    - ALBA
      - [ ] Exotic problem with stateless subscriptions in PyTango that can cause issues in "fast dummy motor controller". Happens when taurus tries to subscribe but fails. Can be caused by changing event config. No decision on how to proceed.
      - [ ] `self.<macro name>` exceptions are uninformative.
-     - [ ] Migration of final sardana 2 beamlines -> 3. Scans using two different pools together experience hangs. Perhaps some cases are related to state attribute polling. 
+     - Migration of final sardana 2 beamlines -> 3. 
+     - [ ] Scans using two different pools together experience hangs. Perhaps some cases are related to state attribute polling. 
    - DESY
      - [X] Moving two pseudomotors belonging to same controller caused problems in sardana 3.1.3. This has been solved.
    - Max Born
