@@ -77,7 +77,7 @@ Participants:
   - Need to wait for Taurus to make a release ~2 weeks.
   - Solaris and DESY are supposed to handle this release
   - The bug squashing party merged an issue that also requires some discussion
-    - Stored start-time should be when the scan starts, not when the macro starts (Henrik)
+    - [ ] Stored start-time should be when the scan starts, not when the macro starts (Henrik)
   - Various things left open from the bug squashing party for the future.
 
 7. AOB
