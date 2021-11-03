@@ -59,7 +59,7 @@ Participants:
             - Henrik/MAXIV will look into adding functionality to the IcePap controller to show motor OFF state.
         
      - New:
-       - GUIs sardanaeditor and "showscan offline" will likely be removed from sardana as a result of low interest in the sardana user survey. Zibi will make a PR.
+       - [ ] GUIs sardanaeditor and "showscan offline" will likely be removed from sardana as a result of low interest in the sardana user survey. Zibi will make a PR.
 
 4. Overview of current developments / PR distribution
   - sardana CLI [#286](https://github.com/sardana-org/sardana/issues/286)
